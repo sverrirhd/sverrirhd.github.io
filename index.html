@@ -154,7 +154,7 @@
                         </li>
                     </ul>
 
-                    <p class="lead" style="*font-size: 15pt; margin-bottom:0px"><b>Univeristy of Iceland (HÍ)</b></p>
+                    <p class="lead" style="*font-size: 15pt; margin-bottom:0px"><b>University of Iceland (HÍ)</b></p>
                     <ul style="padding-left:30px">
                         <li class="lead" style="font-size: 14pt"><b>B.Sc.Eng. Software Engineering</b></li>
                     </ul>
@@ -211,7 +211,7 @@
                 <h2 class="mb-2">Projects</h2>
             </div>
             <div class="container text-center mb-5">
-                <p class="lead">Here you can see some of the projects I've done</p>
+                <p class="lead">Here you can see some of the projects I've done outside work</p>
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-4">
@@ -237,6 +237,17 @@
                             </span>
                         </span>
                         <img class="img-fluid portfolio-img" src="img/projects/stereo.gif" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h4>Texture synthesis</h4>
+                                <p class="mb-0">Modification of a non-parametric texture synthesis method by A. Efros and T. Leung.</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid portfolio-img" src="img/projects/texture_synthesis.gif" alt="">
                     </a>
                 </div>
 
@@ -374,6 +385,36 @@
                                 <div class="lead mb-4">
                                     <b>View the code and see more details for this project on GitHub </b>
                                     <a href="https://github.com/sverrirhd/Stereo-vision-and-3D-registration" target="blank"><br>https://github.com/sverrirhd/Stereo-vision-and-3D-registration</a>
+                                </div>
+                                <a class="btn btn-dark btn-l" data-dismiss="modal" href="#">
+                                    <i class="fa fa-times"></i> Close Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 mx-auto">
+                            <div class="modal-body">
+                                <h2>Texture synthesis</h2>
+                                <p class="lead">I implement a non-parametric texture synthesis method by A. Efros and T. Leung. as well as a modification. The difference between this version and the original is that the original needed to be provided an image with the
+                                    texture, one that has no missing pixels, while this modification looks instead at the non-missing pixels from the image itself to fill in the missing pixels. This change also means that we can take a noisy image where
+                                    no non-noisy version exists and fill in the noisy pixels. This image does not need to be of a texture, as is demonstrated on the github page.</p>
+                                <div class="lead mb-4">
+                                    <b>View the code and see more details for this project on GitHub </b>
+                                    <a href="https://github.com/sverrirhd/Texture-synthesis" target="blank"><br>https://github.com/sverrirhd/Texture-synthesis</a>
                                 </div>
                                 <a class="btn btn-dark btn-l" data-dismiss="modal" href="#">
                                     <i class="fa fa-times"></i> Close Project</a>
