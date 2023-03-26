@@ -164,10 +164,10 @@ header.masthead {
     text-align: center;
     color: white;
     background-color: black;
-    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
-    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
-    *background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
+    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.webp");
+    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.webp");
+    *background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.webp");
     background-repeat: no-repeat;
     *background-attachment: scroll;
     background-attachment: fixed;
