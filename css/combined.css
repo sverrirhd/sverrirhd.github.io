@@ -1,41 +1,3 @@
-/*!
- * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
-
-
-/* Original
-Primary:          #-1-d-8-0-9-f
-Primary dark:     #-1-5-5-d-7-4
-Secondary:        #-f-e-d-1-3-6
-Secondary dark:   #-f-e-c-5-0-3
-*/
-
-
-/* Nice blue primary
-Primary:          #-2-9-8-8-b-c
-Primary dark:     #-2-c-6-9-9-5
-Secondary:        #-f-e-d-1-3-6
-Secondary dark:   #-f-e-c-5-0-3
-*/
-
-
-/* Nice blue with orange
-Primary:          #-2-9-8-8-b-c
-Primary dark:     #-2-c-6-9-9-5
-Secondary:        #-f-9-a-6-0-3
-Secondary dark:   #-f-7-8-b-2-d
-*/
-
-
-/*
-Primary:          #2988bc
-Primary dark:     #2c6995
-Secondary:        #fcbc1d
-Secondary dark:   #fbab25
-*/
-
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -202,10 +164,10 @@ header.masthead {
     text-align: center;
     color: white;
     background-color: black;
-    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/Skógafoss_July_2014.jpg");
-    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/Skógafoss_July_2014.jpg");
-    *background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/background/Skógafoss_July_2014.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/Skógafoss_July_2014.jpg");
+    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
+    *background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
+    *background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../img/background/fimmvörðuháls.jpg");
     background-repeat: no-repeat;
     *background-attachment: scroll;
     background-attachment: fixed;
