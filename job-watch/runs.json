@@ -1,5 +1,97 @@
 [
   {
+    "checked_at": "2026-05-08T12:00:27+00:00",
+    "term": "gervigreind",
+    "job_count": 39,
+    "new_count": 0,
+    "source_status": [
+      {
+        "source": "alfred",
+        "ok": true,
+        "url": "https://alfred.is/starfsvakt?search=gervigreind",
+        "total": 6,
+        "count": 6
+      },
+      {
+        "source": "storf",
+        "ok": true,
+        "url": "https://www.storf.is/?s=gervigreind",
+        "total": 7,
+        "count": 7
+      },
+      {
+        "source": "tvinna",
+        "ok": true,
+        "url": "https://www.tvinna.is/?s=gervigreind",
+        "total": 26,
+        "note": "Tvinna search includes older/archive postings; check dates/deadlines.",
+        "count": 26
+      },
+      {
+        "source": "linkedin",
+        "ok": true,
+        "url": "https://www.linkedin.com/jobs/search/?keywords=gervigreind&location=Iceland",
+        "total": 0,
+        "page_title": "0 Gervigreind jobs in Iceland",
+        "count": 0
+      },
+      {
+        "source": "jobis",
+        "ok": true,
+        "url": "https://www.job.is/?s=gervigreind",
+        "total": 0,
+        "note": "Best-effort public HTML search; may miss client-side/authenticated listings.",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-05-08T11:59:51+00:00",
+    "term": "gervigreind",
+    "job_count": 39,
+    "new_count": 0,
+    "source_status": [
+      {
+        "source": "alfred",
+        "ok": true,
+        "url": "https://alfred.is/starfsvakt?search=gervigreind",
+        "total": 6,
+        "count": 6
+      },
+      {
+        "source": "storf",
+        "ok": true,
+        "url": "https://www.storf.is/?s=gervigreind",
+        "total": 7,
+        "count": 7
+      },
+      {
+        "source": "tvinna",
+        "ok": true,
+        "url": "https://www.tvinna.is/?s=gervigreind",
+        "total": 26,
+        "note": "Tvinna search includes older/archive postings; check dates/deadlines.",
+        "count": 26
+      },
+      {
+        "source": "linkedin",
+        "ok": true,
+        "url": "https://www.linkedin.com/jobs/search/?keywords=gervigreind&location=Iceland",
+        "total": 0,
+        "page_title": "0 Gervigreind jobs in Iceland",
+        "count": 0
+      },
+      {
+        "source": "jobis",
+        "ok": true,
+        "url": "https://www.job.is/?s=gervigreind",
+        "total": 0,
+        "note": "Best-effort public HTML search; may miss client-side/authenticated listings.",
+        "count": 0
+      }
+    ]
+  },
+  {
     "checked_at": "2026-05-08T11:46:16+00:00",
     "term": "gervigreind",
     "job_count": 39,
