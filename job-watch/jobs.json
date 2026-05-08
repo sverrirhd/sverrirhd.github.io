@@ -1,6 +1,6 @@
 {
   "term": "gervigreind",
-  "updated_at": "2026-05-08T12:10:08+00:00",
+  "updated_at": "2026-05-08T13:00:45+00:00",
   "jobs": [
     {
       "source": "Alfred",
@@ -91,6 +91,21 @@
       "status_note": "",
       "raw_date": "",
       "key": "Alfred:166469"
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167154",
+      "title": "Sérhæfðar fjárfestingar",
+      "company": "Alfa Framtak",
+      "location": "Iceland",
+      "published": "2026-05-08T12:17:19Z",
+      "deadline": "2026-05-17T23:59:59Z",
+      "url": "https://alfred.is/starf/serhaefdar-fjarfestingar-1",
+      "snippet": "ur. Færni á sviði fjárhagslegra greininga og gerð kynninga er mikilvægur eiginleiki. Tæknilegur skilningur og hagnýting gervigreindar er kostur. Viðkomandi þarf að taka frumkvæði í sínum störfum, vera tilbúin(n) að leggja mikið á sig við nákvæmni upplýsinga og hafa getu til að miðla niðurstöðum í bæði ræðu og riti. Hjá",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167154"
     },
     {
       "source": "Störf.is",
@@ -593,8 +608,8 @@
       "source": "alfred",
       "ok": true,
       "url": "https://alfred.is/starfsvakt?search=gervigreind",
-      "total": 6,
-      "count": 6
+      "total": 7,
+      "count": 7
     },
     {
       "source": "storf",
