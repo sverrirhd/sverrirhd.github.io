@@ -1,6 +1,6 @@
 {
   "term": "gervigreind",
-  "updated_at": "2026-05-08T13:00:45+00:00",
+  "updated_at": "2026-05-08T13:20:13+00:00",
   "jobs": [
     {
       "source": "Alfred",
@@ -15,22 +15,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:165825"
-    },
-    {
-      "source": "Alfred",
-      "source_id": "166078",
-      "title": "Sölusérfræðingur Rekstrarlausna Advania",
-      "company": "Advania",
-      "location": "Iceland",
-      "published": "2026-04-21T09:00:10Z",
-      "deadline": "2026-05-08T23:59:59Z",
-      "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
-      "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: - Söluráðgjöf til nýrra og núverandi viðskiptavina - Uppbygging og viðhald traustra langtímasambanda - Undirbúningur og kynningar lausna",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:166078"
+      "key": "Alfred:165825",
+      "duplicate_group_key": "role:7c175bf87fefe7f4",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/financial-data-analyst-gagnagreinandi",
+          "title": "Financial Data Analyst / Gagnagreinandi",
+          "company": "Crowberry Capital"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Alfred",
@@ -45,7 +41,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:166417"
+      "key": "Alfred:166417",
+      "duplicate_group_key": "role:e2d3bb960e1b6e0e",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/nylidar-a-endurskodunarsvidi-akureyri",
+          "title": "Nýliðar á endurskoðunarsviði - Akureyri",
+          "company": "KPMG á Íslandi"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Alfred",
@@ -60,7 +67,18 @@
       "matched_in": "search_result",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:166569"
+      "key": "Alfred:166569",
+      "duplicate_group_key": "role:a3e42c7b9e987da4",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/framleidsluserfraedingur-steypuskala-1",
+          "title": "Framleiðslusérfræðingur steypuskála",
+          "company": "Norðurál"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Alfred",
@@ -75,7 +93,18 @@
       "matched_in": "search_result",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:167040"
+      "key": "Alfred:167040",
+      "duplicate_group_key": "role:953567ad86d6e54e",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-first-full-stack-developer",
+          "title": "AI-first Full Stack Developer",
+          "company": "TimeXtender"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Alfred",
@@ -90,7 +119,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:166469"
+      "key": "Alfred:166469",
+      "duplicate_group_key": "role:0626ce20a954033b",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/serfraedingur-i-hugbunadarprofunum-qa",
+          "title": "Sérfræðingur í hugbúnaðarprófunum (QA)",
+          "company": "APRÓ"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Alfred",
@@ -105,7 +145,84 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Alfred:167154"
+      "key": "Alfred:167154",
+      "duplicate_group_key": "role:8611435d082f67a6",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/serhaefdar-fjarfestingar-1",
+          "title": "Sérhæfðar fjárfestingar",
+          "company": "Alfa Framtak"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
+    },
+    {
+      "source": "Alfred + Störf.is",
+      "source_id": "166078",
+      "title": "Sölusérfræðingur Rekstrarlausna Advania",
+      "company": "Advania",
+      "location": "Iceland",
+      "published": "2026-04-21T09:00:10Z",
+      "deadline": "2026-05-08T23:59:59Z",
+      "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
+      "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: Söluráðgjöf til nýrra og núverandi viðskiptavina Uppbygging og viðhald traustra langtímasambanda Undirbúningur og kynningar lausna Tilboð",
+      "matched_in": "content",
+      "status_note": "Merged from 2 matching source postings.",
+      "raw_date": "",
+      "key": "role:e6b99dd2b51bcfed",
+      "duplicate_group_key": "role:e6b99dd2b51bcfed",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
+          "title": "Sölusérfræðingur Rekstrarlausna Advania",
+          "company": "Advania"
+        },
+        {
+          "source": "Störf.is",
+          "url": "https://jobs.50skills.com/advania/42385",
+          "title": "Sölusérfræðingur Rekstrarlausna Advania",
+          "company": "Advania"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Alfred",
+          "source_id": "166078",
+          "title": "Sölusérfræðingur Rekstrarlausna Advania",
+          "company": "Advania",
+          "location": "Iceland",
+          "published": "2026-04-21T09:00:10Z",
+          "deadline": "2026-05-08T23:59:59Z",
+          "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
+          "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: - Söluráðgjöf til nýrra og núverandi viðskiptavina - Uppbygging og viðhald traustra langtímasambanda - Undirbúningur og kynningar lausna",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Alfred:166078",
+          "duplicate_group_key": "role:e6b99dd2b51bcfed"
+        },
+        {
+          "source": "Störf.is",
+          "source_id": "85194",
+          "title": "Sölusérfræðingur Rekstrarlausna Advania",
+          "company": "Advania",
+          "location": "Reykjavík, Höfuðborgarsvæðið",
+          "published": "2026-04-25T03:05:59.260992Z",
+          "deadline": "2026-05-08T00:00:00",
+          "url": "https://jobs.50skills.com/advania/42385",
+          "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: Söluráðgjöf til nýrra og núverandi viðskiptavina Uppbygging og viðhald traustra langtímasambanda Undirbúningur og kynningar lausna Tilboð",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Störf.is:85194",
+          "duplicate_group_key": "role:e6b99dd2b51bcfed"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true
     },
     {
       "source": "Störf.is",
@@ -120,22 +237,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Störf.is:85143"
-    },
-    {
-      "source": "Störf.is",
-      "source_id": "85194",
-      "title": "Sölusérfræðingur Rekstrarlausna Advania",
-      "company": "Advania",
-      "location": "Reykjavík, Höfuðborgarsvæðið",
-      "published": "2026-04-25T03:05:59.260992Z",
-      "deadline": "2026-05-08T00:00:00",
-      "url": "https://jobs.50skills.com/advania/42385",
-      "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: Söluráðgjöf til nýrra og núverandi viðskiptavina Uppbygging og viðhald traustra langtímasambanda Undirbúningur og kynningar lausna Tilboð",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Störf.is:85194"
+      "key": "Störf.is:85143",
+      "duplicate_group_key": "role:13d83e0c091b8884",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://www.hagvangur.is/jobs/innkaupafulltrui-samhentir/",
+          "title": "Innkaupafulltrúi – Samhentir",
+          "company": "Hagvangur"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Störf.is",
@@ -150,7 +263,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Störf.is:85309"
+      "key": "Störf.is:85309",
+      "duplicate_group_key": "role:c509a2331ae59190",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://island.is/starfatorg/x-46519",
+          "title": "Sérfræðingur óskast til starfa",
+          "company": "Umhverf­is-, orku- og lofts­lags­ráðu­neytið"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Störf.is",
@@ -163,24 +287,60 @@
       "url": "https://island.is/starfatorg/x-46504",
       "snippet": "um greinum sem nýtast í starfi Góð færni í Excel Gott vald á upplýsingatækni og hæfni til að nýta nýjungar, þar á meðal gervigreind og stafrænar lausnir, til umbóta í starfi Reynsla af sambærilegum verkefnum er kostur Góð samstarfshæfni og rík þjónustulund Sjálfstæð, skipulögð og lausnamiðuð vinnubrögð Góð færni í ísle",
       "matched_in": "content",
-      "status_note": "",
+      "status_note": "Merged from 2 matching source postings.",
       "raw_date": "",
-      "key": "Störf.is:85434"
-    },
-    {
-      "source": "Störf.is",
-      "source_id": "85436",
-      "title": "Verkefnastjóri í fjármálatengdum verkefnum",
-      "company": "Háskóli Íslands",
-      "location": "Reykjanes",
-      "published": "2026-05-06T03:23:04.560708Z",
-      "deadline": "2026-05-15T00:00:00",
-      "url": "https://hi.is/lausstorf#Verkefnastjóri-í-fjármálatengdum-verkefnum",
-      "snippet": "um greinum sem nýtast í starfi Góð færni í Excel Gott vald á upplýsingatækni og hæfni til að nýta nýjungar, þar á meðal gervigreind og stafrænar lausnir, til umbóta í starfi Reynsla af sambærilegum verkefnum er kostur Góð samstarfshæfni og rík þjónustulund Sjálfstæð, skipulögð og lausnamiðuð vinnubrögð Góð færni í ísle",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Störf.is:85436"
+      "key": "role:111a3ec5a1cf2f6f",
+      "duplicate_group_key": "role:111a3ec5a1cf2f6f",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://island.is/starfatorg/x-46504",
+          "title": "Verkefnastjóri í fjármálatengdum verkefnum",
+          "company": "Háskóli Íslands"
+        },
+        {
+          "source": "Störf.is",
+          "url": "https://hi.is/lausstorf#Verkefnastjóri-í-fjármálatengdum-verkefnum",
+          "title": "Verkefnastjóri í fjármálatengdum verkefnum",
+          "company": "Háskóli Íslands"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Störf.is",
+          "source_id": "85434",
+          "title": "Verkefnastjóri í fjármálatengdum verkefnum",
+          "company": "Háskóli Íslands",
+          "location": "Reykjavík, Höfuðborgarsvæðið",
+          "published": "2026-05-06T03:18:15.809931Z",
+          "deadline": "2026-05-15T00:00:00",
+          "url": "https://island.is/starfatorg/x-46504",
+          "snippet": "um greinum sem nýtast í starfi Góð færni í Excel Gott vald á upplýsingatækni og hæfni til að nýta nýjungar, þar á meðal gervigreind og stafrænar lausnir, til umbóta í starfi Reynsla af sambærilegum verkefnum er kostur Góð samstarfshæfni og rík þjónustulund Sjálfstæð, skipulögð og lausnamiðuð vinnubrögð Góð færni í ísle",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Störf.is:85434",
+          "duplicate_group_key": "role:111a3ec5a1cf2f6f"
+        },
+        {
+          "source": "Störf.is",
+          "source_id": "85436",
+          "title": "Verkefnastjóri í fjármálatengdum verkefnum",
+          "company": "Háskóli Íslands",
+          "location": "Reykjanes",
+          "published": "2026-05-06T03:23:04.560708Z",
+          "deadline": "2026-05-15T00:00:00",
+          "url": "https://hi.is/lausstorf#Verkefnastjóri-í-fjármálatengdum-verkefnum",
+          "snippet": "um greinum sem nýtast í starfi Góð færni í Excel Gott vald á upplýsingatækni og hæfni til að nýta nýjungar, þar á meðal gervigreind og stafrænar lausnir, til umbóta í starfi Reynsla af sambærilegum verkefnum er kostur Góð samstarfshæfni og rík þjónustulund Sjálfstæð, skipulögð og lausnamiðuð vinnubrögð Góð færni í ísle",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Störf.is:85436",
+          "duplicate_group_key": "role:111a3ec5a1cf2f6f"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true
     },
     {
       "source": "Störf.is",
@@ -195,7 +355,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Störf.is:85466"
+      "key": "Störf.is:85466",
+      "duplicate_group_key": "role:76fb7bf9f372d414",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://island.is/starfatorg/c-7tpUAsW5RpdscIwvyZFGXV",
+          "title": "Forstöðumaður verðbréfamarkaða",
+          "company": "Seðla­banki Íslands"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Störf.is",
@@ -210,7 +381,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "",
-      "key": "Störf.is:85469"
+      "key": "Störf.is:85469",
+      "duplicate_group_key": "role:9dcddc188c7d88c6",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://www.hagvangur.is/jobs/rekstrar-og-vidhaldsstjori-bjorgun-sement/",
+          "title": "Rekstrar- og viðhaldsstjóri – Björgun Sement",
+          "company": "Hagvangur"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -225,7 +407,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "1. Jul 2011",
-      "key": "Tvinna:c-forritari-hja-meniga"
+      "key": "Tvinna:c-forritari-hja-meniga",
+      "duplicate_group_key": "role:05bd9d6a1604db89",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/c-forritari-hja-meniga/",
+          "title": "C# forritari hjá Meniga",
+          "company": "Meniga"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -240,7 +433,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "1. Oct 2016",
-      "key": "Tvinna:serlausnadeild-activity-stream-leitar-ad-forriturum"
+      "key": "Tvinna:serlausnadeild-activity-stream-leitar-ad-forriturum",
+      "duplicate_group_key": "role:ce0f84c23cc233df",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serlausnadeild-activity-stream-leitar-ad-forriturum/",
+          "title": "Sérlausnadeild Activity Stream leitar að forriturum",
+          "company": "Activity Stream"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -255,7 +459,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "10. Nov 2025",
-      "key": "Tvinna:upplysingataeknistjori-3"
+      "key": "Tvinna:upplysingataeknistjori-3",
+      "duplicate_group_key": "role:2c64de1b1610f5f2",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/upplysingataeknistjori-3/",
+          "title": "Upplýsingatæknistjóri",
+          "company": "Dagar"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -270,7 +485,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "10. Oct 2019",
-      "key": "Tvinna:serfraedingar-i-gervigreind-maltaekni"
+      "key": "Tvinna:serfraedingar-i-gervigreind-maltaekni",
+      "duplicate_group_key": "role:2e1fd7833d2e3407",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serfraedingar-i-gervigreind-maltaekni/",
+          "title": "Sérfræðingar í gervigreind/máltækni",
+          "company": "Háskólinn í Reykjavík"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -285,7 +511,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "11. Oct 2023",
-      "key": "Tvinna:serfraedingur-i-spunagreind-maltaekni-og-mallikonum"
+      "key": "Tvinna:serfraedingur-i-spunagreind-maltaekni-og-mallikonum",
+      "duplicate_group_key": "role:699d9e0fa31fb1f9",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serfraedingur-i-spunagreind-maltaekni-og-mallikonum/",
+          "title": "Sérfræðingur í spunagreind, máltækni og mállíkönum",
+          "company": "Íslandsbanka"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -300,7 +537,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "18. Dec 2024",
-      "key": "Tvinna:full-stack-forritari-fyrir-spennandi-gervigreindarverkefni"
+      "key": "Tvinna:full-stack-forritari-fyrir-spennandi-gervigreindarverkefni",
+      "duplicate_group_key": "role:dd58b6c4ab740e30",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/full-stack-forritari-fyrir-spennandi-gervigreindarverkefni/",
+          "title": "Full-stack forritari fyrir spennandi gervigreindarverkefni",
+          "company": "LagaViti ehf."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -315,7 +563,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "18. Mar 2021",
-      "key": "Tvinna:gervigreindarserfraedingur-reyndur-forritari-artificial-intelligence-expert-experienced-programmer"
+      "key": "Tvinna:gervigreindarserfraedingur-reyndur-forritari-artificial-intelligence-expert-experienced-programmer",
+      "duplicate_group_key": "role:deeab5db04425004",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/gervigreindarserfraedingur-reyndur-forritari-artificial-intelligence-expert-experienced-programmer/",
+          "title": "Gervigreindarsérfræðingur / Reyndur forritari – Artificial intelligence expert / Experienced programmer",
+          "company": "Skákgreind ehf"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -330,7 +589,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "18. May 2024",
-      "key": "Tvinna:gagnaforritari-gagnaverkfraedingur"
+      "key": "Tvinna:gagnaforritari-gagnaverkfraedingur",
+      "duplicate_group_key": "role:c49b59b2b54527ba",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/gagnaforritari-gagnaverkfraedingur/",
+          "title": "Gagnaforritari / gagnaverkfræðingur",
+          "company": "Snjallgögn"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -345,7 +615,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "18. May 2024",
-      "key": "Tvinna:maltaekniforritari-nlp"
+      "key": "Tvinna:maltaekniforritari-nlp",
+      "duplicate_group_key": "role:808cde1bee13049b",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/maltaekniforritari-nlp/",
+          "title": "Máltækniforritari (NLP)",
+          "company": "Snjallgögn"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -360,7 +641,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "18. May 2024",
-      "key": "Tvinna:serfraedingur-i-gagnavisindum-2"
+      "key": "Tvinna:serfraedingur-i-gagnavisindum-2",
+      "duplicate_group_key": "role:570a52714e9aac25",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serfraedingur-i-gagnavisindum-2/",
+          "title": "Sérfræðingur í gagnavísindum",
+          "company": "Snjallgögn"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -375,7 +667,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "20. Dec 2024",
-      "key": "Tvinna:leidandi-forritari"
+      "key": "Tvinna:leidandi-forritari",
+      "duplicate_group_key": "role:27279a26eb2fe3f8",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/leidandi-forritari/",
+          "title": "Leiðandi forritari",
+          "company": "Careflux"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -390,7 +693,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "20. Oct 2020",
-      "key": "Tvinna:personalized-internet-assessor-iceland-2"
+      "key": "Tvinna:personalized-internet-assessor-iceland-2",
+      "duplicate_group_key": "role:b86c65ba3913d814",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/personalized-internet-assessor-iceland-2/",
+          "title": "Persónulegur internetálitsgjafi – Ísland",
+          "company": "Lionbridge"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -405,7 +719,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "23. Feb 2021",
-      "key": "Tvinna:serfraedingar-i-hugb-throun-maltaekni-ai"
+      "key": "Tvinna:serfraedingar-i-hugb-throun-maltaekni-ai",
+      "duplicate_group_key": "role:3c7521480e8aa187",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
+          "title": "Sérfræðingar í hugb.þróun/máltækni/AI",
+          "company": "Háskólinn í Reykjavík"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -420,7 +745,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "26. Oct 2012",
-      "key": "Tvinna:forritari-26"
+      "key": "Tvinna:forritari-26",
+      "duplicate_group_key": "role:4f1fb5b43f24a5c0",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/forritari-26/",
+          "title": "Forritari",
+          "company": "CLARA"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -435,7 +771,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "27. Dec 2024",
-      "key": "Tvinna:ert-thu-ferlaserfraedingur"
+      "key": "Tvinna:ert-thu-ferlaserfraedingur",
+      "duplicate_group_key": "role:f2fa5f296d6c6fca",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/ert-thu-ferlaserfraedingur/",
+          "title": "Ert þú ferlasérfræðingur?",
+          "company": "Orkuveitan"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -450,7 +797,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "29. Mar 2026",
-      "key": "Tvinna:framendaforritari-31"
+      "key": "Tvinna:framendaforritari-31",
+      "duplicate_group_key": "role:d39e70de48f83de8",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/framendaforritari-31/",
+          "title": "Framendaforritari",
+          "company": "Helix Health"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -465,7 +823,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "29. Mar 2026",
-      "key": "Tvinna:full-stack-forritari-10"
+      "key": "Tvinna:full-stack-forritari-10",
+      "duplicate_group_key": "role:f7ed0ffb68f57d25",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/full-stack-forritari-10/",
+          "title": "Full Stack forritari",
+          "company": "Helix Health"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -480,7 +849,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "3. Apr 2024",
-      "key": "Tvinna:kerfisstjori-46"
+      "key": "Tvinna:kerfisstjori-46",
+      "duplicate_group_key": "role:f36d177f8f1e8904",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/kerfisstjori-46/",
+          "title": "Kerfisstjóri",
+          "company": "Prod"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -495,7 +875,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "3. Jan 2024",
-      "key": "Tvinna:leidtogi-i-hagnytingu-gervigreindar"
+      "key": "Tvinna:leidtogi-i-hagnytingu-gervigreindar",
+      "duplicate_group_key": "role:ada6940b2dd89458",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/leidtogi-i-hagnytingu-gervigreindar/",
+          "title": "Leiðtogi í hagnýtingu gervigreindar",
+          "company": "OR"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -510,7 +901,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "3. Mar 2022",
-      "key": "Tvinna:back-end-developer-5"
+      "key": "Tvinna:back-end-developer-5",
+      "duplicate_group_key": "role:6a56ed0cbb214add",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/back-end-developer-5/",
+          "title": "Back-end developer",
+          "company": "Activity Stream"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -525,7 +927,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "3. Sep 2024",
-      "key": "Tvinna:vorustjori-gervigreindar-ai-product-manager"
+      "key": "Tvinna:vorustjori-gervigreindar-ai-product-manager",
+      "duplicate_group_key": "role:e4247c75c832876c",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/vorustjori-gervigreindar-ai-product-manager/",
+          "title": "Vörustjóri gervigreindar – AI Product manager",
+          "company": "Orkuveitan"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -540,7 +953,18 @@
       "matched_in": "title",
       "status_note": "",
       "raw_date": "30. Jan 2024",
-      "key": "Tvinna:gogn-greining-og-gervigreind"
+      "key": "Tvinna:gogn-greining-og-gervigreind",
+      "duplicate_group_key": "role:a543e041686589c3",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/gogn-greining-og-gervigreind/",
+          "title": "Gögn, greining og gervigreind",
+          "company": "Snjallgögn"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -553,24 +977,60 @@
       "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer-2/",
       "snippet": "r líf fólks? Skákgreind er öflugur tæknisproti sem nýlega hlaut Vaxtar styrk hjá Tækniþróunarsjóði Rannís. Viðtökur við gervigreindrar vefsíðu fyrir einstaklingsmiðað nám, hafa farið framúr björtustu vonum. Framundan er spennandi tími þar sem unnið er með samstarfsaðilum að því að endurbæta lausnina og næstu skref teki",
       "matched_in": "content",
-      "status_note": "",
+      "status_note": "Merged from 2 matching source postings.",
       "raw_date": "4. Sep 2020",
-      "key": "Tvinna:reyndur-forritari-lead-programmer-2"
-    },
-    {
-      "source": "Tvinna",
-      "source_id": "reyndur-forritari-lead-programmer",
-      "title": "Reyndur forritari – Lead programmer",
-      "company": "Skákgreind ehf",
-      "location": "Iceland",
-      "published": "7. May 2020",
-      "deadline": "",
-      "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer/",
-      "snippet": "na sjálfstætt og taka frumkvæði í hugbúnaðarvinnu. Starfið snýst um þróun fjórðu kynslóðar kennsluhugbúnaðar, sem nýtir gervigreind til einstaklingsbundinnar kennslu, með það að markmiði að gera upplifun notenda sem ánægjulegasta. Hugbúnaðurinn er þróaður eftir agile aðferðafræði í öflugu samstarfi við innlenda aðila,",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "7. May 2020",
-      "key": "Tvinna:reyndur-forritari-lead-programmer"
+      "key": "role:a99af384cf683ca9",
+      "duplicate_group_key": "role:a99af384cf683ca9",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer-2/",
+          "title": "Reyndur forritari – lead programmer",
+          "company": "Skákgreind ehf"
+        },
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer/",
+          "title": "Reyndur forritari – Lead programmer",
+          "company": "Skákgreind ehf"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Tvinna",
+          "source_id": "reyndur-forritari-lead-programmer-2",
+          "title": "Reyndur forritari – lead programmer",
+          "company": "Skákgreind ehf",
+          "location": "Iceland",
+          "published": "4. Sep 2020",
+          "deadline": "",
+          "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer-2/",
+          "snippet": "r líf fólks? Skákgreind er öflugur tæknisproti sem nýlega hlaut Vaxtar styrk hjá Tækniþróunarsjóði Rannís. Viðtökur við gervigreindrar vefsíðu fyrir einstaklingsmiðað nám, hafa farið framúr björtustu vonum. Framundan er spennandi tími þar sem unnið er með samstarfsaðilum að því að endurbæta lausnina og næstu skref teki",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "4. Sep 2020",
+          "key": "Tvinna:reyndur-forritari-lead-programmer-2",
+          "duplicate_group_key": "role:a99af384cf683ca9"
+        },
+        {
+          "source": "Tvinna",
+          "source_id": "reyndur-forritari-lead-programmer",
+          "title": "Reyndur forritari – Lead programmer",
+          "company": "Skákgreind ehf",
+          "location": "Iceland",
+          "published": "7. May 2020",
+          "deadline": "",
+          "url": "https://www.tvinna.is/jobs/reyndur-forritari-lead-programmer/",
+          "snippet": "na sjálfstætt og taka frumkvæði í hugbúnaðarvinnu. Starfið snýst um þróun fjórðu kynslóðar kennsluhugbúnaðar, sem nýtir gervigreind til einstaklingsbundinnar kennslu, með það að markmiði að gera upplifun notenda sem ánægjulegasta. Hugbúnaðurinn er þróaður eftir agile aðferðafræði í öflugu samstarfi við innlenda aðila,",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "7. May 2020",
+          "key": "Tvinna:reyndur-forritari-lead-programmer",
+          "duplicate_group_key": "role:a99af384cf683ca9"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true
     },
     {
       "source": "Tvinna",
@@ -585,7 +1045,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "8. Jun 2016",
-      "key": "Tvinna:forritara-vantar-i-oflugt-teymi"
+      "key": "Tvinna:forritara-vantar-i-oflugt-teymi",
+      "duplicate_group_key": "role:09270b0f46544f49",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/forritara-vantar-i-oflugt-teymi/",
+          "title": "Forritara vantar í öflugt teymi",
+          "company": "Activity Stream ehf."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     },
     {
       "source": "Tvinna",
@@ -600,7 +1071,18 @@
       "matched_in": "content",
       "status_note": "",
       "raw_date": "9. Nov 2015",
-      "key": "Tvinna:spennandi-storf-hja-framsaeknu-fyrirtaeki"
+      "key": "Tvinna:spennandi-storf-hja-framsaeknu-fyrirtaeki",
+      "duplicate_group_key": "role:397afb307725e7f6",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/spennandi-storf-hja-framsaeknu-fyrirtaeki/",
+          "title": "Spennandi störf hjá framsæknu fyrirtæki",
+          "company": "Activity Stream ehf."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1
     }
   ],
   "sources": [
