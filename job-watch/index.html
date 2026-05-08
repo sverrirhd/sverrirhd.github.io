@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iceland AI Job Watch</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#121a30;--muted:#95a3b8;--text:#e8eefc;--accent:#66e3a0;--warn:#f4c76b;--bad:#ff7b72;--line:#24304a;--link:#8ab4ff}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(135deg,#08111f,#141a2e 60%,#102319);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.45}.wrap{max-width:1200px;margin:0 auto;padding:28px 18px 60px}h1{font-size:clamp(28px,5vw,48px);margin:0 0 8px}.sub{color:var(--muted);margin:0 0 22px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.toolbar input,.toolbar select{background:#0d1528;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.toolbar input{min-width:min(440px,100%);flex:1}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:20px 0}.card,.job{background:rgba(18,26,48,.88);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 12px 40px rgba(0,0,0,.18)}.metric{font-size:26px;font-weight:800}.label,.meta{color:var(--muted);font-size:13px}.sources{display:flex;gap:8px;flex-wrap:wrap}.pill{border:1px solid var(--line);border-radius:999px;padding:6px 10px;background:#0d1528;font-size:13px}.ok{color:var(--accent)}.err{color:var(--bad)}.jobs{display:grid;gap:12px}.job h3{margin:0 0 7px;font-size:19px}.job a{color:var(--link)}.badge{display:inline-block;margin-right:6px;margin-top:6px;border-radius:999px;padding:4px 8px;background:#1b2942;color:#c8d7f1;font-size:12px}.badge.title{background:#173820;color:#9ff2bd}.badge.content{background:#342914;color:#ffd98a}.snippet{margin:10px 0;color:#d7e0ef}.note{color:var(--warn)}.footer{margin-top:25px;color:var(--muted);font-size:13px}mark{background:#ffe66d;color:#111;border-radius:3px;padding:0 2px}.hidden{display:none}.smalllink{font-size:13px;color:var(--link)}
+  </style>
+</head>
+<body><div class="wrap">
+  <h1>Iceland AI Job Watch</h1>
+  <p class="sub">Listings mentioning <strong>gervigreind</strong> in the title or posting contents. Updated daily by Hermes.</p>
+  <div class="cards"><div class="card"><div class="metric" id="count">–</div><div class="label">current matches</div></div><div class="card"><div class="metric" id="updated">–</div><div class="label">last updated</div></div><div class="card"><div class="metric" id="sources">–</div><div class="label">sources checked</div></div></div>
+  <div class="toolbar"><input id="q" placeholder="Filter titles, companies, snippets…"/><select id="src"><option value="">All sources</option></select><select id="match"><option value="">Title + content matches</option><option value="title">Title matches</option><option value="content">Content matches</option></select><a class="smalllink" href="jobs.csv">Download CSV</a></div>
+  <div class="sources" id="sourceStatus"></div>
+  <h2>Matches</h2><div class="jobs" id="jobs"></div>
+  <div class="footer">Tailscale-only service. Source matching is keyword-based; we can refine after seeing noise.</div>
+</div><script>
+const TERM='gervigreind';
+function esc(s){return (s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function hi(s){return esc(s).replace(new RegExp(TERM,'ig'), m=>`<mark>${m}</mark>`)}
+let DATA={jobs:[],sources:[]};
+async function load(){DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); render();}
+function render(){
+  const jobs=DATA.jobs||[]; document.getElementById('count').textContent=jobs.length; document.getElementById('updated').textContent=(DATA.updated_at||'').replace('T',' ').replace('+00:00',' UTC'); document.getElementById('sources').textContent=(DATA.sources||[]).length;
+  const srcSel=document.getElementById('src'); if(srcSel.options.length===1){[...new Set(jobs.map(j=>j.source))].sort().forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;srcSel.appendChild(o)})}
+  document.getElementById('sourceStatus').innerHTML=(DATA.sources||[]).map(s=>`<span class="pill"><b>${esc(s.source)}</b>: <span class="${s.ok?'ok':'err'}">${s.ok?'ok':'error'}</span> · ${s.count||0}${s.note?` · ${esc(s.note)}`:''}</span>`).join('');
+  const q=document.getElementById('q').value.toLowerCase(), src=srcSel.value, mt=document.getElementById('match').value;
+  let filtered=jobs.filter(j=>(!src||j.source===src)&&(!mt||j.matched_in===mt)&&(!q||JSON.stringify(j).toLowerCase().includes(q)));
+  document.getElementById('jobs').innerHTML=filtered.map(j=>`<article class="job"><h3><a href="${esc(j.url)}" target="_blank">${hi(j.title)}</a></h3><div class="meta">${esc(j.company||'Unknown company')} · ${esc(j.source)}${j.location?` · ${esc(j.location)}`:''}</div><div>${j.matched_in?`<span class="badge ${esc(j.matched_in)}">match: ${esc(j.matched_in)}</span>`:''}${j.published?`<span class="badge">published: ${esc(j.published)}</span>`:''}${j.deadline?`<span class="badge">deadline: ${esc(j.deadline)}</span>`:''}</div><p class="snippet">${hi(j.snippet||'')}</p>${j.status_note?`<div class="note">${esc(j.status_note)}</div>`:''}</article>`).join('') || '<p class="sub">No matches after filters.</p>';
+}
+document.getElementById('q').oninput=render; document.getElementById('src').onchange=render; document.getElementById('match').onchange=render; load();
+</script></body></html>
