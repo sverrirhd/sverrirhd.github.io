@@ -1,33 +1,7 @@
 {
   "term": "gervigreind",
-  "updated_at": "2026-05-08T16:38:30+00:00",
+  "updated_at": "2026-05-09T08:01:27+00:00",
   "jobs": [
-    {
-      "source": "Alfred",
-      "source_id": "165825",
-      "title": "Financial Data Analyst / Gagnagreinandi",
-      "company": "Crowberry Capital",
-      "location": "Iceland",
-      "published": "2026-04-16T14:43:29Z",
-      "deadline": "2026-05-08T23:59:59Z",
-      "url": "https://alfred.is/starf/financial-data-analyst-gagnagreinandi",
-      "snippet": "yðja við tæknifyrirtæki á frumstigi á Norðurlöndum, með áherslu á geira eins og djúptækni, heilbrigðistækni, orkutækni, gervigreind o.þ.h. Ef þú hefur brennandi áhuga á gögnum og vilt leggja þitt af mörkum til vaxtar næstu kynslóðar tæknifyrirtækja, þá viljum við heyra frá þér. Crowberry Capital is looking for a Financ",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:165825",
-      "duplicate_group_key": "role:7c175bf87fefe7f4",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/financial-data-analyst-gagnagreinandi",
-          "title": "Financial Data Analyst / Gagnagreinandi",
-          "company": "Crowberry Capital"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1
-    },
     {
       "source": "Alfred",
       "source_id": "166417",
@@ -153,98 +127,6 @@
           "url": "https://alfred.is/starf/serhaefdar-fjarfestingar-1",
           "title": "Sérhæfðar fjárfestingar",
           "company": "Alfa Framtak"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1
-    },
-    {
-      "source": "Alfred + Störf.is",
-      "source_id": "166078",
-      "title": "Sölusérfræðingur Rekstrarlausna Advania",
-      "company": "Advania",
-      "location": "Iceland",
-      "published": "2026-04-21T09:00:10Z",
-      "deadline": "2026-05-08T23:59:59Z",
-      "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
-      "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: Söluráðgjöf til nýrra og núverandi viðskiptavina Uppbygging og viðhald traustra langtímasambanda Undirbúningur og kynningar lausna Tilboð",
-      "matched_in": "content",
-      "status_note": "Merged from 2 matching source postings.",
-      "raw_date": "",
-      "key": "role:e6b99dd2b51bcfed",
-      "duplicate_group_key": "role:e6b99dd2b51bcfed",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
-          "title": "Sölusérfræðingur Rekstrarlausna Advania",
-          "company": "Advania"
-        },
-        {
-          "source": "Störf.is",
-          "url": "https://jobs.50skills.com/advania/42385",
-          "title": "Sölusérfræðingur Rekstrarlausna Advania",
-          "company": "Advania"
-        }
-      ],
-      "alternatives": [
-        {
-          "source": "Alfred",
-          "source_id": "166078",
-          "title": "Sölusérfræðingur Rekstrarlausna Advania",
-          "company": "Advania",
-          "location": "Iceland",
-          "published": "2026-04-21T09:00:10Z",
-          "deadline": "2026-05-08T23:59:59Z",
-          "url": "https://alfred.is/starf/soeluserfraedingur-rekstrarlausna-advania",
-          "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: - Söluráðgjöf til nýrra og núverandi viðskiptavina - Uppbygging og viðhald traustra langtímasambanda - Undirbúningur og kynningar lausna",
-          "matched_in": "content",
-          "status_note": "",
-          "raw_date": "",
-          "key": "Alfred:166078",
-          "duplicate_group_key": "role:e6b99dd2b51bcfed"
-        },
-        {
-          "source": "Störf.is",
-          "source_id": "85194",
-          "title": "Sölusérfræðingur Rekstrarlausna Advania",
-          "company": "Advania",
-          "location": "Reykjavík, Höfuðborgarsvæðið",
-          "published": "2026-04-25T03:05:59.260992Z",
-          "deadline": "2026-05-08T00:00:00",
-          "url": "https://jobs.50skills.com/advania/42385",
-          "snippet": "fyrirtækja og stofnana. Við bjóðum uppá fjölbreytt úrval lausna tengt netrekstri, afritunartöku, hýsingu, öryggismálum, gervigreind og skýjalausnum. Helstu verkefni eru meðal annars: Söluráðgjöf til nýrra og núverandi viðskiptavina Uppbygging og viðhald traustra langtímasambanda Undirbúningur og kynningar lausna Tilboð",
-          "matched_in": "content",
-          "status_note": "",
-          "raw_date": "",
-          "key": "Störf.is:85194",
-          "duplicate_group_key": "role:e6b99dd2b51bcfed"
-        }
-      ],
-      "duplicate_count": 2,
-      "duplicate": true
-    },
-    {
-      "source": "Störf.is",
-      "source_id": "85143",
-      "title": "Innkaupafulltrúi – Samhentir",
-      "company": "Hagvangur",
-      "location": "Iceland",
-      "published": "2026-04-23T03:29:23.981518Z",
-      "deadline": "",
-      "url": "https://www.hagvangur.is/jobs/innkaupafulltrui-samhentir/",
-      "snippet": "u og ensku, bæði í ræðu og riti Þekking á AGR, Microsoft Dynamics NAV eða sambærilegum kerfum er kostur Áhugi á nýtingu gervigreindar í innkaupa- og greiningarvinnu er kostur Þekking eða reynsla af tollamálum er kostur Samhentir eru stærsti umbúðaaðili á Íslandi og hafa um áratugaskeið byggt upp sterka stöðu á markaði",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Störf.is:85143",
-      "duplicate_group_key": "role:13d83e0c091b8884",
-      "source_links": [
-        {
-          "source": "Störf.is",
-          "url": "https://www.hagvangur.is/jobs/innkaupafulltrui-samhentir/",
-          "title": "Innkaupafulltrúi – Samhentir",
-          "company": "Hagvangur"
         }
       ],
       "alternatives": [],
@@ -1090,15 +972,15 @@
       "source": "alfred",
       "ok": true,
       "url": "https://alfred.is/starfsvakt?search=gervigreind",
-      "total": 7,
-      "count": 7
+      "total": 5,
+      "count": 5
     },
     {
       "source": "storf",
       "ok": true,
       "url": "https://www.storf.is/?s=gervigreind",
-      "total": 7,
-      "count": 7
+      "total": 5,
+      "count": 5
     },
     {
       "source": "tvinna",

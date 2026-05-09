@@ -16,7 +16,7 @@
 </head>
 <body>
   <div class="hero"><div class="wrap">
-    <div class="topbar"><div class="brand"><div class="logo">AI</div><div>Iceland AI Job Watch</div></div><a class="smalllink" href="jobs.csv">Download CSV</a><button class="action" onclick="exportFeedback()">Export preference profile</button></div>
+    <div class="topbar"><div class="brand"><div class="logo">AI</div><div>Iceland AI Job Watch</div></div><a class="smalllink" href="jobs.csv">Download CSV</a><button class="action" onclick="exportFeedback()">Export preference profile</button><span class="label" id="syncStatus">Server-synced memory starting…</span></div>
     <div class="hero-grid"><div><h1>AI roles in Iceland</h1><p class="sub">A brighter Alfred-inspired dashboard for Icelandic listings mentioning <strong>gervigreind</strong>. Like promising roles, reject noisy ones into an archive, and use the <strong>New</strong> badge for anything you have not opened or rated yet.</p></div><div class="hero-card"><div class="stats"><div><div class="metric" id="count">–</div><div class="label">visible matches</div></div><div><div class="metric" id="newCount">–</div><div class="label">new/unreviewed</div></div><div><div class="metric" id="likedCount">–</div><div class="label">liked</div></div></div></div></div>
   </div></div>
   <main class="wrap">
@@ -25,15 +25,34 @@
     <div class="section-head"><div><h2 id="sectionTitle">Matches</h2><div class="label" id="updated">Updated –</div></div><div class="tabs"><button class="tab active" data-view="active">Priority queue</button><button class="tab" data-view="new">New</button><button class="tab" data-view="liked">Liked</button><button class="tab" data-view="maybe">Maybe</button><button class="tab" data-view="applied">Follow-up</button><button class="tab" data-view="archived">Not for me</button></div></div>
     <div id="archiveNote"></div>
     <div class="jobs" id="jobs"></div>
-    <div class="footer">Ratings, reasons, and your preference profile are stored in this browser with localStorage (<code>jobWatchPrefs:v1</code>). Daily updates preserve liked roles, keep rejected roles archived, and mark unseen/unrated roles as New. Use “Export preference profile” to send the feedback JSON back to Hermes for future evaluation/ranking skills.</div>
+    <div class="footer">Ratings, reasons, and your preference profile are stored server-side at <code>/api/preferences</code> and mirrored to this browser with localStorage (<code>jobWatchPrefs:v1</code>). Daily updates preserve liked roles, keep rejected roles archived, and mark unseen/unrated roles as New across phone and computer sessions. Use “Export preference profile” to send the feedback JSON back to Hermes for future evaluation/ranking skills.</div>
   </main>
 <script>
 const TERM='gervigreind';
 const PREF_KEY='jobWatchPrefs:v1';
+const PREF_API='/api/preferences';
 function esc(s){return (s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function hi(s){return esc(s).replace(new RegExp(TERM,'ig'), m=>`<mark>${m}</mark>`)}
-function loadPrefs(){try{let p=JSON.parse(localStorage.getItem(PREF_KEY))||{}; return {liked:p.liked||{},maybe:p.maybe||{},applied:p.applied||{},rejected:p.rejected||{},seen:p.seen||{},feedback:p.feedback||{}}}catch(e){return {liked:{},maybe:{},applied:{},rejected:{},seen:{},feedback:{}}}}
-function savePrefs(){localStorage.setItem(PREF_KEY, JSON.stringify(PREFS))}
+function emptyPrefs(){return {liked:{},maybe:{},applied:{},rejected:{},seen:{},feedback:{}}}
+function normalizePrefs(p){p=p||{}; return {liked:p.liked||{},maybe:p.maybe||{},applied:p.applied||{},rejected:p.rejected||{},seen:p.seen||{},feedback:p.feedback||{}}}
+function loadPrefs(){try{return normalizePrefs(JSON.parse(localStorage.getItem(PREF_KEY)))}catch(e){return emptyPrefs()}}
+function prefTime(v){const t=Date.parse(v||''); return Number.isFinite(t)?t:0}
+function mergePreferences(serverPrefs, localPrefs){
+  const merged=normalizePrefs(serverPrefs); localPrefs=normalizePrefs(localPrefs);
+  for(const bucket of ['seen','feedback']) merged[bucket]={...localPrefs[bucket],...merged[bucket]};
+  const states=['liked','maybe','applied','rejected'];
+  const keys=new Set(states.flatMap(b=>Object.keys(localPrefs[b]||{}).concat(Object.keys(merged[b]||{}))));
+  for(const key of keys){
+    let winner=null, best=-1;
+    for(const bucket of states){ for(const src of [localPrefs, merged]){ if(src[bucket]&&src[bucket][key]){const t=prefTime(src[bucket][key]); if(t>=best){best=t; winner=bucket; merged[bucket][key]=src[bucket][key];}}}}
+    for(const bucket of states){ if(bucket!==winner) delete merged[bucket][key]; }
+  }
+  return normalizePrefs(merged);
+}
+function setSyncStatus(text, ok=true){const el=document.getElementById('syncStatus'); if(el){el.textContent=text; el.style.color=ok?'var(--muted)':'var(--red)';}}
+async function loadServerPrefs(){const r=await fetch(PREF_API+'?'+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status); return normalizePrefs(await r.json())}
+async function saveServerPrefs(prefs){try{const r=await fetch(PREF_API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(normalizePrefs(prefs))}); if(!r.ok) throw new Error('HTTP '+r.status); setSyncStatus('Server-synced memory saved'); return normalizePrefs(await r.json())}catch(e){setSyncStatus('Server-side memory offline; using local backup', false); return null}}
+function savePrefs(){localStorage.setItem(PREF_KEY, JSON.stringify(PREFS)); saveServerPrefs(PREFS)}
 let PREFS=loadPrefs();
 let DATA={jobs:[],sources:[]};
 let ACTIVE_FEEDBACK=null;
@@ -103,7 +122,11 @@ function exportFeedback(){
   const blob=new Blob([JSON.stringify(profile,null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='job-watch-feedback.json'; a.click(); URL.revokeObjectURL(a.href);
 }
-async function load(){DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); render();}
+async function load(){
+  try{const serverPrefs=await loadServerPrefs(); PREFS=mergePreferences(serverPrefs, PREFS); localStorage.setItem(PREF_KEY, JSON.stringify(PREFS)); setSyncStatus('Server-synced memory loaded'); saveServerPrefs(PREFS);}
+  catch(e){setSyncStatus('Server-side memory offline; using local backup', false)}
+  DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); render();
+}
 function setView(view){document.getElementById('view').value=view; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===view)); render();}
 function render(){
   const all=DATA.jobs||[];
