@@ -33,13 +33,15 @@ const PREF_KEY='jobWatchPrefs:v1';
 const PREF_API='/api/preferences';
 function esc(s){return (s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function hi(s){return esc(s).replace(new RegExp(TERM,'ig'), m=>`<mark>${m}</mark>`)}
-function emptyPrefs(){return {liked:{},maybe:{},applied:{},rejected:{},seen:{},feedback:{}}}
-function normalizePrefs(p){p=p||{}; return {liked:p.liked||{},maybe:p.maybe||{},applied:p.applied||{},rejected:p.rejected||{},seen:p.seen||{},feedback:p.feedback||{}}}
+function emptyPrefs(){return {liked:{},maybe:{},applied:{},rejected:{},seen:{},feedback:{},ui:{}}}
+function normalizePrefs(p){p=p||{}; return {liked:p.liked||{},maybe:p.maybe||{},applied:p.applied||{},rejected:p.rejected||{},seen:p.seen||{},feedback:p.feedback||{},ui:p.ui||{}}}
 function loadPrefs(){try{return normalizePrefs(JSON.parse(localStorage.getItem(PREF_KEY)))}catch(e){return emptyPrefs()}}
 function prefTime(v){const t=Date.parse(v||''); return Number.isFinite(t)?t:0}
 function mergePreferences(serverPrefs, localPrefs){
   const merged=normalizePrefs(serverPrefs); localPrefs=normalizePrefs(localPrefs);
   for(const bucket of ['seen','feedback']) merged[bucket]={...localPrefs[bucket],...merged[bucket]};
+  merged.ui={...(localPrefs.ui||{}),...(merged.ui||{})};
+  merged.ui.filters={...((localPrefs.ui||{}).filters||{}),...((merged.ui||{}).filters||{})};
   const states=['liked','maybe','applied','rejected'];
   const keys=new Set(states.flatMap(b=>Object.keys(localPrefs[b]||{}).concat(Object.keys(merged[b]||{}))));
   for(const key of keys){
@@ -103,8 +105,16 @@ function saveInlineFeedback(key, rating){
   const input=document.getElementById(`feedback-${key}`);
   markJob(key, rating, input ? input.value : '', job);
 }
-function postedAgeDays(j){const raw=j.published||j.raw_date||''; const d=Date.parse(raw); if(!Number.isFinite(d)) return null; return Math.floor((Date.now()-d)/86400000);}
-function deadlineDays(j){const raw=j.deadline||''; const d=Date.parse(raw); if(!Number.isFinite(d)) return null; return Math.ceil((d-Date.now())/86400000);}
+function parseJobDate(raw){
+  raw=(raw||'').trim(); if(!raw) return null;
+  let d=new Date(raw); if(Number.isFinite(d.getTime())) return d;
+  const monthMap={jan:0,january:0,'janúar':0,feb:1,february:1,'febrúar':1,mar:2,march:2,mars:2,apr:3,april:3,'apríl':3,may:4,'maí':4,jun:5,june:5,'júní':5,jul:6,july:6,'júlí':6,aug:7,august:7,'ágúst':7,sep:8,sept:8,september:8,oct:9,okt:9,october:9,'október':9,nov:10,november:10,dec:11,des:11,december:11,desember:11};
+  const m=raw.match(/(\d{1,2})\.\s*([A-Za-zÁÉÍÓÚÝÞÆÖáðéíóúýþæö]+)\s+(\d{4})/i);
+  if(m){const mon=monthMap[m[2].toLowerCase()]; if(mon!==undefined) return new Date(Date.UTC(Number(m[3]),mon,Number(m[1])));}
+  return null;
+}
+function postedAgeDays(j){const d=parseJobDate(j.published||j.raw_date||''); if(!d) return null; return Math.floor((Date.now()-d.getTime())/86400000);}
+function deadlineDays(j){const d=parseJobDate(j.deadline||''); if(!d) return null; return Math.ceil((d.getTime()-Date.now())/86400000);}
 function isUrgent(j){const days=deadlineDays(j); return (isLiked(j.key)||isMaybe(j.key)) && days!==null && days>=0 && days<=7;}
 function urgentPriority(j){return isUrgent(j)?0:1;}
 function predictedInterestScore(j){const s=j.predicted_interest&&j.predicted_interest.score; return Number.isFinite(s)?s:null;}
@@ -126,12 +136,16 @@ function exportFeedback(){
   const blob=new Blob([JSON.stringify(profile,null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='job-watch-feedback.json'; a.click(); URL.revokeObjectURL(a.href);
 }
+function loadFilterPrefs(){return ((PREFS.ui||{}).filters)||{}}
+function populateSourceOptions(){const all=DATA.jobs||[]; const srcSel=document.getElementById('src'); if(srcSel.options.length===1){[...new Set(all.map(j=>j.source))].sort().forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;srcSel.appendChild(o)})}}
+function applyFilterPrefs(){const f=loadFilterPrefs(); for(const id of ['q','src','match','view','ageFilter']){const el=document.getElementById(id); if(el&&f[id]!==undefined){el.value=f[id];}}}
+function saveFilterPrefs(){PREFS.ui=PREFS.ui||{}; PREFS.ui.filters={q:document.getElementById('q').value,src:document.getElementById('src').value,match:document.getElementById('match').value,view:document.getElementById('view').value,ageFilter:document.getElementById('ageFilter').value,updatedAt:new Date().toISOString()}; savePrefs();}
 async function load(){
   try{const serverPrefs=await loadServerPrefs(); PREFS=mergePreferences(serverPrefs, PREFS); localStorage.setItem(PREF_KEY, JSON.stringify(PREFS)); setSyncStatus('Server-synced memory loaded'); saveServerPrefs(PREFS);}
   catch(e){setSyncStatus('Server-side memory offline; using local backup', false)}
-  DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); render();
+  DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); populateSourceOptions(); applyFilterPrefs(); render();
 }
-function setView(view){document.getElementById('view').value=view; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===view)); render();}
+function setView(view){document.getElementById('view').value=view; saveFilterPrefs(); document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===view)); render();}
 function render(){
   const all=DATA.jobs||[];
   const view=document.getElementById('view').value;
@@ -141,7 +155,8 @@ function render(){
   document.getElementById('newCount').textContent=all.filter(isNew).length;
   document.getElementById('likedCount').textContent=all.filter(j=>isLiked(j.key)).length;
   document.getElementById('updated').textContent='Updated '+((DATA.updated_at||'').replace('T',' ').replace('+00:00',' UTC')||'–')+' · '+all.length+' total matches';
-  const srcSel=document.getElementById('src'); if(srcSel.options.length===1){[...new Set(all.map(j=>j.source))].sort().forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;srcSel.appendChild(o)})}
+  populateSourceOptions();
+  const srcSel=document.getElementById('src');
   document.getElementById('sourceStatus').innerHTML=(DATA.sources||[]).map(s=>`<span class="pill"><b>${esc(s.source)}</b>: <span class="${s.ok?'ok':'err'}">${s.ok?'ok':'error'}</span> · ${s.count||0}${s.note?` · ${esc(s.note)}`:''}</span>`).join('');
   const q=document.getElementById('q').value.toLowerCase(), src=srcSel.value, mt=document.getElementById('match').value;
   const ageLabel=document.getElementById('ageFilter').selectedOptions[0]?.textContent||'Any age';
@@ -167,5 +182,6 @@ function render(){
     return `<article class="job-card ${urgent?'urgent-deadline':''} ${liked?'liked':''} ${maybe?'maybe':''} ${applied?'applied':''} ${rejected?'rejected':''} ${fresh?'is-new':''}"><div><h3><a href="${esc(j.url)}" target="_blank" rel="noopener" onclick="markSeen('${safeKey}')">${hi(j.title)}</a></h3><div class="company-row"><span class="source-dot"></span><span>${esc(j.company||'Unknown company')}</span><span>·</span><span>${esc(j.source)}</span>${j.location?`<span>·</span><span>${esc(j.location)}</span>`:''}</div><div class="badges">${urgent?`<span class="badge urgent">URGENT · Needs action · deadline less than a week (${deadlineDays(j)}d)</span>`:''}${fresh?'<span class="badge new">New</span>':''}${predictionBadge}${j.duplicate_count>1?`<span class="badge merged">Merged · ${j.duplicate_count} sources</span>`:''}${liked?'<span class="badge liked">Liked</span>':''}${maybe?'<span class="badge maybe">Maybe</span>':''}${applied?'<span class="badge applied">Applied</span>':''}${rejected?'<span class="badge rejected">Not for me</span>':''}${j.matched_in?`<span class="badge ${esc(j.matched_in)}">match: ${esc(j.matched_in)}</span>`:''}${j.published?`<span class="badge">published: ${esc(j.published)}</span>`:''}${j.deadline?`<span class="badge">deadline: ${esc(j.deadline)}</span>`:''}</div><p class="snippet">${hi(j.snippet||'')}</p>${sourceLinksHtml}${predictionNote}${reasonHtml}${j.status_note?`<div class="note">${esc(j.status_note)}</div>`:''}</div><div class="actions"><button class="action like ${liked?'active':''}" onclick="showFeedbackBox('${safeKey}','liked')">${liked?'Edit like':'Like'}</button><button class="action maybe ${maybe?'active':''}" onclick="showFeedbackBox('${safeKey}','maybe')">${maybe?'Edit maybe':'Maybe'}</button><button class="action applied ${applied?'active':''}" onclick="markApplied('${safeKey}')">${applied?'Applied':'Mark applied'}</button><button class="action reject ${rejected?'active':''}" onclick="showFeedbackBox('${safeKey}','rejected')">${rejected?'Edit Not for me':'Not for me'}</button><button class="action" onclick="markJob('${safeKey}','clear')">Clear</button>${feedbackBox}</div></article>`;
   }).join('') || '<p class="sub">No roles match this view/filter.</p>';
 }
-document.getElementById('q').oninput=render; document.getElementById('src').onchange=render; document.getElementById('match').onchange=render; document.getElementById('ageFilter').onchange=render; document.getElementById('view').onchange=e=>setView(e.target.value); document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>setView(b.dataset.view)); load();
+function handleFilterChange(){saveFilterPrefs(); render();}
+document.getElementById('q').oninput=handleFilterChange; document.getElementById('src').onchange=handleFilterChange; document.getElementById('match').onchange=handleFilterChange; document.getElementById('ageFilter').onchange=handleFilterChange; document.getElementById('view').onchange=e=>setView(e.target.value); document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>setView(b.dataset.view)); load();
 </script></body></html>
