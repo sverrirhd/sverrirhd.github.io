@@ -1,8 +1,8 @@
 {
   "term": "gervigreind",
-  "updated_at": "2026-05-10T11:38:22+00:00",
+  "updated_at": "2026-05-10T11:39:29+00:00",
   "preference_profile": {
-    "exportedAt": "2026-05-10T11:38:22+00:00",
+    "exportedAt": "2026-05-10T11:39:29+00:00",
     "purpose": "preferenceProfile for scoring and ordering unreviewed Iceland AI roles",
     "ratingCounts": {
       "rejected": 14,
@@ -216,12 +216,11 @@
       "alternatives": [],
       "duplicate_count": 1,
       "predicted_interest": {
-        "score": 81,
-        "label": "high",
-        "rationale": "explicit AI/gervigreind emphasis; AI in title or description. Caveats: posting is more than one year old and may be stale.",
+        "score": 73,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis; data engineering/programming fit. Caveats: posting is more than one year old and may be stale.",
         "positive_signals": [
           "explicit AI/gervigreind emphasis",
-          "AI in title or description",
           "data engineering/programming fit",
           "data engineering fit",
           "data work"
@@ -229,7 +228,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -258,12 +257,11 @@
       "alternatives": [],
       "duplicate_count": 1,
       "predicted_interest": {
-        "score": 79,
-        "label": "high",
-        "rationale": "explicit AI/gervigreind emphasis; AI in title or description. Caveats: posting is more than one year old and may be stale.",
+        "score": 71,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis; AI product role. Caveats: posting is more than one year old and may be stale.",
         "positive_signals": [
           "explicit AI/gervigreind emphasis",
-          "AI in title or description",
           "AI product role",
           "product role",
           "applied AI leadership"
@@ -271,7 +269,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -311,7 +309,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -351,7 +349,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -391,7 +389,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -430,7 +428,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -468,7 +466,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -508,7 +506,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -547,7 +545,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -585,7 +583,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -624,46 +622,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
-      }
-    },
-    {
-      "source": "Tvinna",
-      "source_id": "serfraedingar-i-hugb-throun-maltaekni-ai",
-      "title": "Sérfræðingar í hugb.þróun/máltækni/AI",
-      "company": "Háskólinn í Reykjavík",
-      "location": "Iceland",
-      "published": "23. Feb 2021",
-      "deadline": "",
-      "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
-      "snippet": "ni/AI Háskólinn í Reykjavík 23. Feb 2021 Fullt starf Mál- og raddtæknistofa Háskólans í Reykjavík (HR), sem er hluti af Gervigreindarsetri HR, hlaut nýlega fimm styrki til tveggja ára til að vinna að rannsóknar- og þróunarverkefnum á sviði gervigreindar, máltækni og samskiptum manns og tölvu. Um er að ræða tvo styrki ú",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "23. Feb 2021",
-      "key": "Tvinna:serfraedingar-i-hugb-throun-maltaekni-ai",
-      "duplicate_group_key": "role:3c7521480e8aa187",
-      "source_links": [
-        {
-          "source": "Tvinna",
-          "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
-          "title": "Sérfræðingar í hugb.þróun/máltækni/AI",
-          "company": "Háskólinn í Reykjavík"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 28,
-        "label": "very low",
-        "rationale": "explicit AI/gervigreind emphasis; AI in title or description. Caveats: posting is more than two years old and may be stale.",
-        "positive_signals": [
-          "explicit AI/gervigreind emphasis",
-          "AI in title or description"
-        ],
-        "negative_signals": [
-          "posting is more than two years old and may be stale"
-        ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -701,7 +660,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -739,7 +698,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -777,7 +736,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -855,7 +814,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -893,7 +852,45 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "serfraedingar-i-hugb-throun-maltaekni-ai",
+      "title": "Sérfræðingar í hugb.þróun/máltækni/AI",
+      "company": "Háskólinn í Reykjavík",
+      "location": "Iceland",
+      "published": "23. Feb 2021",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
+      "snippet": "ni/AI Háskólinn í Reykjavík 23. Feb 2021 Fullt starf Mál- og raddtæknistofa Háskólans í Reykjavík (HR), sem er hluti af Gervigreindarsetri HR, hlaut nýlega fimm styrki til tveggja ára til að vinna að rannsóknar- og þróunarverkefnum á sviði gervigreindar, máltækni og samskiptum manns og tölvu. Um er að ræða tvo styrki ú",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "23. Feb 2021",
+      "key": "Tvinna:serfraedingar-i-hugb-throun-maltaekni-ai",
+      "duplicate_group_key": "role:3c7521480e8aa187",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
+          "title": "Sérfræðingar í hugb.þróun/máltækni/AI",
+          "company": "Háskólinn í Reykjavík"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 20,
+        "label": "very low",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: posting is more than two years old and may be stale.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [
+          "posting is more than two years old and may be stale"
+        ],
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -931,7 +928,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -970,7 +967,7 @@
           "generic full-stack is only a weak fit",
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1009,7 +1006,7 @@
           "systems administration is only tangentially related",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1048,7 +1045,7 @@
           "assessor/evaluator gig is not a strong role fit",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1082,7 +1079,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1116,7 +1113,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1150,7 +1147,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1184,7 +1181,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1218,7 +1215,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1252,7 +1249,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1286,7 +1283,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1320,7 +1317,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1394,7 +1391,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1428,7 +1425,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1462,7 +1459,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1496,7 +1493,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     },
     {
@@ -1530,7 +1527,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-10T11:38:22+00:00"
+        "profile_version": "2026-05-10T11:39:29+00:00"
       }
     }
   ],
