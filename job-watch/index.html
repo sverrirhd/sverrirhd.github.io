@@ -17,7 +17,7 @@
 <body>
   <div class="hero"><div class="wrap">
     <div class="topbar"><div class="brand"><div class="logo">AI</div><div>Iceland AI Job Watch</div></div><a class="smalllink" href="jobs.csv">Download CSV</a><button class="action" onclick="exportFeedback()">Export preference profile</button><span class="label" id="syncStatus">Server-synced memory starting…</span></div>
-    <div class="hero-grid"><div><h1>AI roles in Iceland</h1><p class="sub">A brighter Alfred-inspired dashboard for Icelandic listings mentioning <strong>gervigreind</strong>. Like promising roles, reject noisy ones into an archive, and use the <strong>New</strong> badge for anything you have not opened or rated yet.</p></div><div class="hero-card"><div class="stats"><div><div class="metric" id="count">–</div><div class="label">visible matches</div></div><div><div class="metric" id="newCount">–</div><div class="label">new/unreviewed</div></div><div><div class="metric" id="likedCount">–</div><div class="label">liked</div></div></div></div></div>
+    <div class="hero-grid"><div><h1>AI roles in Iceland</h1><p class="sub">A brighter Alfred-inspired dashboard for Icelandic listings mentioning <strong>gervigreind</strong> or standalone <strong>AI</strong>. Like promising roles, reject noisy ones into an archive, and use the <strong>New</strong> badge for anything you have not opened or rated yet.</p></div><div class="hero-card"><div class="stats"><div><div class="metric" id="count">–</div><div class="label">visible matches</div></div><div><div class="metric" id="newCount">–</div><div class="label">new/unreviewed</div></div><div><div class="metric" id="likedCount">–</div><div class="label">liked</div></div></div></div></div>
   </div></div>
   <main class="wrap">
     <div class="toolbar-card" id="filterPanel"><div class="mobile-search" id="mobileSearch"><input id="q" placeholder="Search title, company, snippet…" autocomplete="off"/></div><details class="filter-details"><summary id="mobileFilterToggle"><span>Filters</span><span class="filter-summary" id="filterSummary">Source · match · age</span></summary><div class="toolbar"><select id="src"><option value="">All sources</option></select><select id="match"><option value="">Title + content matches</option><option value="title">Title matches</option><option value="content">Content matches</option><option value="search_result">Search-result matches</option></select><select id="view"><option value="active">Priority queue</option><option value="new">New / unreviewed</option><option value="liked">Liked / interested</option><option value="maybe">Maybe / lower priority</option><option value="applied">Applied / Follow-up</option><option value="archived">Not for me</option><option value="all">All jobs</option></select><select id="ageFilter"><option value="">Any age</option><option value="7">Last 7 days</option><option value="14">Last 14 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select><a class="smalllink" href="jobs.json">JSON</a><button class="action" onclick="exportFeedback()">Feedback JSON</button></div></details></div>
@@ -28,11 +28,11 @@
     <div class="footer">Ratings, reasons, and your preference profile are stored server-side at <code>/api/preferences</code> and mirrored to this browser with localStorage (<code>jobWatchPrefs:v1</code>). Daily updates preserve liked roles, keep rejected roles archived, and mark unseen/unrated roles as New across phone and computer sessions. Use “Export preference profile” to send the feedback JSON back to Hermes for future evaluation/ranking skills.</div>
   </main>
 <script>
-const TERM='gervigreind';
+const TERMS=['gervigreind','AI'];
 const PREF_KEY='jobWatchPrefs:v1';
 const PREF_API='/api/preferences';
 function esc(s){return (s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-function hi(s){return esc(s).replace(new RegExp(TERM,'ig'), m=>`<mark>${m}</mark>`)}
+function hi(s){return esc(s).replace(/gervigreind|(?<![0-9A-Za-zÀ-ÖØ-öø-ÿ])AI(?![0-9A-Za-zÀ-ÖØ-öø-ÿ])/ig, m=>`<mark>${m}</mark>`)}
 function emptyPrefs(){return {liked:{},maybe:{},applied:{},rejected:{},seen:{},feedback:{},ui:{}}}
 function normalizePrefs(p){p=p||{}; return {liked:p.liked||{},maybe:p.maybe||{},applied:p.applied||{},rejected:p.rejected||{},seen:p.seen||{},feedback:p.feedback||{},ui:p.ui||{}}}
 function loadPrefs(){try{return normalizePrefs(JSON.parse(localStorage.getItem(PREF_KEY)))}catch(e){return emptyPrefs()}}

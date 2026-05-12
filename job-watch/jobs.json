@@ -1,8 +1,12 @@
 {
-  "term": "gervigreind",
-  "updated_at": "2026-05-11T08:00:49+00:00",
+  "term": "gervigreind or standalone AI",
+  "search_terms": [
+    "gervigreind",
+    "AI"
+  ],
+  "updated_at": "2026-05-12T19:39:00+00:00",
   "preference_profile": {
-    "exportedAt": "2026-05-11T08:00:49+00:00",
+    "exportedAt": "2026-05-12T19:39:00+00:00",
     "purpose": "preferenceProfile for scoring and ordering unreviewed Iceland AI roles",
     "ratingCounts": {
       "rejected": 15,
@@ -249,7 +253,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -289,7 +293,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -329,7 +333,223 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167041",
+      "title": "Forritari / hugbúnaðarþróunaraðili óskast í spennandi fiskeldis- og tækniverkefni",
+      "company": "KAPP ehf",
+      "location": "Iceland",
+      "published": "2026-05-11T13:15:52Z",
+      "deadline": "2026-05-31T23:59:59Z",
+      "url": "https://alfred.is/starf/forritari-hugbunadarthrounaradili-oskast-i-spennandi-fiskeldis-og-taekniverkefni",
+      "snippet": "fnið snýr að vatnsgæðavöktun, IoT-mælibúnaði, gagnasöfnun, greiningu, mælaborðum og síðar tengingu við myndgreiningu og AI-greiningu í fiskeldi. Við leitum að forritara eða hugbúnaðarþróunaraðila sem vill koma að uppbyggingu lausnarinnar frá fyrstu stigum og taka þátt í að þróa kerfi sem getur haft raunverulegt notagil",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167041",
+      "duplicate_group_key": "role:61d90fca3988fc42",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/forritari-hugbunadarthrounaradili-oskast-i-spennandi-fiskeldis-og-taekniverkefni",
+          "title": "Forritari / hugbúnaðarþróunaraðili óskast í spennandi fiskeldis- og tækniverkefni",
+          "company": "KAPP ehf"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "analytics/data analysis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "analytics/data analysis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167370",
+      "title": "Hugbúnaðarsérfræðingur",
+      "company": "Payday ehf.",
+      "location": "Iceland",
+      "published": "2026-05-12T15:49:15Z",
+      "deadline": "",
+      "url": "https://alfred.is/starf/hugbunadarserfraedingur-112",
+      "snippet": "agnrýna hugsun og ríka þjónustulund. Við leggjum áherslu á að umsækjandi sé framsækinn og nýti nýjustu tól, þar á meðal gervigreind, til að auka gæði og skilvirkni í sínu starfi. Hjá Payday bjóðum við upp á metnaðarfullt starfsumhverfi þar sem nýsköpun og nútímaleg vinnubrögð eru í fyrirrúmi. Nánari upplýsingar veitir",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167370",
+      "duplicate_group_key": "role:eb504cf1b80dc708",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/hugbunadarserfraedingur-112",
+          "title": "Hugbúnaðarsérfræðingur",
+          "company": "Payday ehf."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167298",
+      "title": "Langar þig að vera AI Orchestrator",
+      "company": "TACTICA",
+      "location": "Iceland",
+      "published": "2026-05-12T10:37:40Z",
+      "deadline": "",
+      "url": "https://alfred.is/starf/ai-orchestrator-oskast",
+      "snippet": "Langar þig að vera AI Orchestrator Langar þig að vinna í fremstu víglínu gervigreindar? TACTICA leitar að framsýnum og drífandi AI Orchestrator sem þorir að hugsa stórt og er tilbúinn að taka þátt í að móta hvernig fyrirtækið nýtir gervigreind í daglegum rekstri. Langar þig að vinna í fremstu víglínu gervigreindar? TAC",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167298",
+      "duplicate_group_key": "role:3039c6555b13ef06",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-orchestrator-oskast",
+          "title": "Langar þig að vera AI Orchestrator",
+          "company": "TACTICA"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167237",
+      "title": "Mannauðsstjóri",
+      "company": "Íslandsbanki",
+      "location": "Iceland",
+      "published": "2026-05-11T13:44:21Z",
+      "deadline": "2026-05-19T23:59:59Z",
+      "url": "https://alfred.is/starf/mannaudsstjori-83",
+      "snippet": "ingu þar sem áhersla er lögð á einfaldara skipulag, skýrari ábyrgð, gagnadrifna ákvarðanatöku og aukna nýtingu tækni og gervigreindar. Umsókn skal fylgja ferilskrá og ítarlegt kynningarbréf á íslensku þar sem gerð er grein fyrir ástæðu umsóknar og rökstuðningur um hæfni viðkomandi til að gegna starfinu. Nánari upplýsin",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167237",
+      "duplicate_group_key": "role:f18f5aae8f156696",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/mannaudsstjori-83",
+          "title": "Mannauðsstjóri",
+          "company": "Íslandsbanki"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167238",
+      "title": "Yfirlögfræðingur",
+      "company": "Íslandsbanki",
+      "location": "Iceland",
+      "published": "2026-05-11T13:43:08Z",
+      "deadline": "2026-05-19T23:59:59Z",
+      "url": "https://alfred.is/starf/yfirloegfraedingur-8",
+      "snippet": "ingu þar sem áhersla er lögð á einfaldara skipulag, skýrari ábyrgð, gagnadrifna ákvarðanatöku og aukna nýtingu tækni og gervigreindar. Umsókn skal fylgja ferilskrá og ítarlegt kynningarbréf á íslensku þar sem gerð er grein fyrir ástæðu umsóknar og rökstuðningur um hæfni viðkomandi til að gegna starfinu. Nánari upplýsin",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167238",
+      "duplicate_group_key": "role:70ed6f0da7097e2c",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/yfirloegfraedingur-8",
+          "title": "Yfirlögfræðingur",
+          "company": "Íslandsbanki"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Störf.is",
+      "source_id": "85563",
+      "title": "Tæknistjóri hugbúnaðarþróunar",
+      "company": "Reykjavíkurborg",
+      "location": "Reykjavík, Höfuðborgarsvæði",
+      "published": "2026-05-12T03:04:08.811572Z",
+      "deadline": "",
+      "url": "https://reykjavik.is/job/42793",
+      "snippet": "rarkitektúr, þar á meðal samþættingar milli kerfa og hönnun gagnalausna Meta og innleiða nýja tækni og vinnubrögð, m.a. gervigreind Taka virkan þátt í kóðarýni og þróun hugbúnaðarlausna eftir þörfum (t.d. með .NET og React/TypeScript) Byggja og viðhalda skalanlegum, öruggum og rekstrarhæfum lausnum í skýjaumhverfi Azur",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Störf.is:85563",
+      "duplicate_group_key": "role:6f328f8a88f3f0f6",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://reykjavik.is/job/42793",
+          "title": "Tæknistjóri hugbúnaðarþróunar",
+          "company": "Reykjavíkurborg"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 55,
+        "label": "medium",
+        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
+        "positive_signals": [
+          "explicit AI/gervigreind emphasis"
+        ],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -368,7 +588,705 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred + LinkedIn",
+      "source_id": "167267",
+      "title": "AI Solutions Analyst",
+      "company": "atNorth",
+      "location": "Iceland",
+      "published": "2026-05-11T13:15:19Z",
+      "deadline": "2026-05-31T23:59:59Z",
+      "url": "https://alfred.is/starf/ai-solutions-analyst",
+      "snippet": "AI Solutions Analyst atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are des",
+      "matched_in": "title",
+      "status_note": "Merged from 2 matching source postings.",
+      "raw_date": "",
+      "key": "role:528ee6c501e14b61",
+      "duplicate_group_key": "role:528ee6c501e14b61",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-solutions-analyst",
+          "title": "AI Solutions Analyst",
+          "company": "atNorth"
+        },
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948?position=1&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=D%2FSClql1NV9HxZ5jWU39fA%3D%3D",
+          "title": "AI Solutions Analyst",
+          "company": "atNorth"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Alfred",
+          "source_id": "167267",
+          "title": "AI Solutions Analyst",
+          "company": "atNorth",
+          "location": "Iceland",
+          "published": "2026-05-11T13:15:19Z",
+          "deadline": "2026-05-31T23:59:59Z",
+          "url": "https://alfred.is/starf/ai-solutions-analyst",
+          "snippet": "AI Solutions Analyst atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are des",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Alfred:167267",
+          "duplicate_group_key": "role:528ee6c501e14b61"
+        },
+        {
+          "source": "LinkedIn",
+          "source_id": "83c331d7b1b467ee",
+          "title": "AI Solutions Analyst",
+          "company": "atNorth",
+          "location": "Hafnarfjörður, Capital Region, Iceland",
+          "published": "",
+          "deadline": "",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948?position=1&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=D%2FSClql1NV9HxZ5jWU39fA%3D%3D",
+          "snippet": "AI Solutions Analyst AI Solutions Analyst atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "LinkedIn:83c331d7b1b467ee",
+          "duplicate_group_key": "role:528ee6c501e14b61"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred + LinkedIn",
+      "source_id": "167264",
+      "title": "AI Solutions Engineer",
+      "company": "atNorth",
+      "location": "Iceland",
+      "published": "2026-05-11T13:04:52Z",
+      "deadline": "2026-05-31T23:59:59Z",
+      "url": "https://alfred.is/starf/ai-solutions-engineer",
+      "snippet": "AI Solutions Engineer atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are de",
+      "matched_in": "title",
+      "status_note": "Merged from 2 matching source postings.",
+      "raw_date": "",
+      "key": "role:320d781a37cce270",
+      "duplicate_group_key": "role:320d781a37cce270",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-solutions-engineer",
+          "title": "AI Solutions Engineer",
+          "company": "atNorth"
+        },
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184?position=3&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=gjD3X6BO9jeh4KefhM70rg%3D%3D",
+          "title": "AI Solutions Engineer",
+          "company": "atNorth"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Alfred",
+          "source_id": "167264",
+          "title": "AI Solutions Engineer",
+          "company": "atNorth",
+          "location": "Iceland",
+          "published": "2026-05-11T13:04:52Z",
+          "deadline": "2026-05-31T23:59:59Z",
+          "url": "https://alfred.is/starf/ai-solutions-engineer",
+          "snippet": "AI Solutions Engineer atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are de",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Alfred:167264",
+          "duplicate_group_key": "role:320d781a37cce270"
+        },
+        {
+          "source": "LinkedIn",
+          "source_id": "20a911380165a6e7",
+          "title": "AI Solutions Engineer",
+          "company": "atNorth",
+          "location": "Hafnarfjörður, Capital Region, Iceland",
+          "published": "",
+          "deadline": "",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184?position=3&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=gjD3X6BO9jeh4KefhM70rg%3D%3D",
+          "snippet": "AI Solutions Engineer AI Solutions Engineer atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "LinkedIn:20a911380165a6e7",
+          "duplicate_group_key": "role:320d781a37cce270"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "bfac87af292699c9",
+      "title": "AI Co-Founder / CEO (100 % remote) (m/f/d)",
+      "company": "EWOR",
+      "location": "Reykjavík, Capital Region, Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327?position=9&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jD7Zde3Oajaye82qACSU0A%3D%3D",
+      "snippet": "AI Co-Founder / CEO (100 % remote) (m/f/d) AI Co-Founder / CEO (100 % remote) (m/f/d) EWOR Reykjavík, Capital Region, Iceland Be an early applicant 4 days ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:bfac87af292699c9",
+      "duplicate_group_key": "role:53306290c002a29d",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327?position=9&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jD7Zde3Oajaye82qACSU0A%3D%3D",
+          "title": "AI Co-Founder / CEO (100 % remote) (m/f/d)",
+          "company": "EWOR"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "afed2ade5640153e",
+      "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
+      "company": "Prolific",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989?position=14&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=tkrDymfNVh0%2Fj8fPaueJlA%3D%3D",
+      "snippet": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) Prolific Iceland Be an early applicant 8 hours ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:afed2ade5640153e",
+      "duplicate_group_key": "role:1af29b24c3147767",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989?position=14&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=tkrDymfNVh0%2Fj8fPaueJlA%3D%3D",
+          "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
+          "company": "Prolific"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "498c2ea73aaf1ed5",
+      "title": "AI-enabled Senior Software Engineer (Typescript Focus)",
+      "company": "AccessOwl",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022?position=15&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=kuetqoqCSx0BUk7s5w9cqw%3D%3D",
+      "snippet": "AI-enabled Senior Software Engineer (Typescript Focus) AI-enabled Senior Software Engineer (Typescript Focus) AccessOwl Iceland Be an early applicant 1 month ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:498c2ea73aaf1ed5",
+      "duplicate_group_key": "role:12b5df53af54ae2e",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022?position=15&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=kuetqoqCSx0BUk7s5w9cqw%3D%3D",
+          "title": "AI-enabled Senior Software Engineer (Typescript Focus)",
+          "company": "AccessOwl"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "8591ece231c2aff2",
+      "title": "Icelandic Speaker - AI Testing Project",
+      "company": "Lionbridge Technologies",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423?position=51&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=xDPdPCrCYFUX0JbTbqFdWA%3D%3D",
+      "snippet": "Icelandic Speaker - AI Testing Project Icelandic Speaker - AI Testing Project Lionbridge Technologies Iceland Be an early applicant 6 days ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:8591ece231c2aff2",
+      "duplicate_group_key": "role:c45843e78a0dd4e2",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423?position=51&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=xDPdPCrCYFUX0JbTbqFdWA%3D%3D",
+          "title": "Icelandic Speaker - AI Testing Project",
+          "company": "Lionbridge Technologies"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "0988f15817c5b754",
+      "title": "Icelandic Speakers - Test Voice Modes of AI Models",
+      "company": "Productive Playhouse",
+      "location": "Reykjavík, Capital Region, Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332?position=48&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=djmjJE2sykcH%2FggMlx7lmg%3D%3D",
+      "snippet": "Icelandic Speakers - Test Voice Modes of AI Models Icelandic Speakers - Test Voice Modes of AI Models Productive Playhouse Reykjavík, Capital Region, Iceland Be an early applicant 5 months ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:0988f15817c5b754",
+      "duplicate_group_key": "role:214644f23fc35263",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332?position=48&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=djmjJE2sykcH%2FggMlx7lmg%3D%3D",
+          "title": "Icelandic Speakers - Test Voice Modes of AI Models",
+          "company": "Productive Playhouse"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Störf.is",
+      "source_id": "85534",
+      "title": "Kerfisstjórn og upplýsingatækni framtíðarstarf",
+      "company": "Mennta­skólinn við Sund",
+      "location": "Höfuðborgarsvæðið",
+      "published": "2026-05-09T03:22:37.475311Z",
+      "deadline": "2026-05-22T00:00:00",
+      "url": "https://island.is/starfatorg/x-46569",
+      "snippet": "iðnum innri þjónustum, API samþættingum og sjálfvirknihandrritum. Tæknileg færni og áhugi til að viðhalda og þróa áfram AI-lausnir skólans. Færni til að hafa umsjón með öryggi tölvukerfa skólans. Færni á uppsetningu og viðhaldi á innri myndavélakerfum og gagnaþjónum. Hæfni í notkun upplýsingatækni til að auka sjálfstæð",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Störf.is:85534",
+      "duplicate_group_key": "role:90303a78cdbbe319",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://island.is/starfatorg/x-46569",
+          "title": "Kerfisstjórn og upplýsingatækni framtíðarstarf",
+          "company": "Mennta­skólinn við Sund"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Störf.is",
+      "source_id": "85274",
+      "title": "SEO Writer",
+      "company": "Arctic Adventures",
+      "location": "Iceland",
+      "published": "2026-04-29T03:05:31.490257Z",
+      "deadline": "2026-05-13T03:03:54.992955",
+      "url": "https://jobs.50skills.com/adventures/42510",
+      "snippet": "produce in-depth travel guides, attraction pages, and informational articles that need to rank in Google, get cited in AI Overviews, ChatGPT, Perplexity, and Gemini, and stand up to fact-checking. You'll execute against detailed SEO briefs, research topics from primary sources, and maintain our brand voice across ever",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Störf.is:85274",
+      "duplicate_group_key": "role:42f9e8530b2335ae",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://jobs.50skills.com/adventures/42510",
+          "title": "SEO Writer",
+          "company": "Arctic Adventures"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Störf.is + Tvinna",
+      "source_id": "85253",
+      "title": "Back-end Software Engineer",
+      "company": "Bókun",
+      "location": "Reykjavík, Höfuðborgarsvæðið",
+      "published": "2026-04-28T03:49:08.630631Z",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+      "snippet": "Don’t worry if you’re not familiar with every technology — we’re committed to helping you learn and grow! Working with AI We take AI seriously, both as a tool and as a product capability. Every engineer at Bókun has access to Claude Code and other leading AI coding assistants, and we actively encourage their use as pa",
+      "matched_in": "content",
+      "status_note": "Merged from 2 matching source postings.",
+      "raw_date": "",
+      "key": "role:6d799aaaa5772e8d",
+      "duplicate_group_key": "role:6d799aaaa5772e8d",
+      "source_links": [
+        {
+          "source": "Störf.is",
+          "url": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+          "title": "Back-end Software Engineer",
+          "company": "Bókun"
+        },
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+          "title": "Back-end Software Engineer",
+          "company": "Bókun"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Störf.is",
+          "source_id": "85253",
+          "title": "Back-end Software Engineer",
+          "company": "Bókun",
+          "location": "Reykjavík, Höfuðborgarsvæðið",
+          "published": "2026-04-28T03:49:08.630631Z",
+          "deadline": "",
+          "url": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+          "snippet": "Don’t worry if you’re not familiar with every technology — we’re committed to helping you learn and grow! Working with AI We take AI seriously, both as a tool and as a product capability. Every engineer at Bókun has access to Claude Code and other leading AI coding assistants, and we actively encourage their use as pa",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Störf.is:85253",
+          "duplicate_group_key": "role:6d799aaaa5772e8d"
+        },
+        {
+          "source": "Tvinna",
+          "source_id": "back-end-software-engineer-2",
+          "title": "Back-end Software Engineer",
+          "company": "Bókun",
+          "location": "Iceland",
+          "published": "27. Apr 2026",
+          "deadline": "",
+          "url": "https://www.tvinna.is/jobs/back-end-software-engineer-2/",
+          "snippet": "Don’t worry if you’re not familiar with every technology — we’re committed to helping you learn and grow! Working with AI We take AI seriously, both as a tool and as a product capability. Every engineer at Bókun has access to Claude Code and other leading AI coding assistants, and we actively encourage their use as pa",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "27. Apr 2026",
+          "key": "Tvinna:back-end-software-engineer-2",
+          "duplicate_group_key": "role:6d799aaaa5772e8d"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "data-scientist-6",
+      "title": "Data Scientist",
+      "company": "Dohop",
+      "location": "Iceland",
+      "published": "26. Nov 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/data-scientist-6/",
+      "snippet": "optimise pricing processes. Evaluate model performance and iterate to improve accuracy and business impact. Explore new AI approaches by evaluating emerging ML and AI techniques and identifying opportunities to apply them to business challenges. Partner with data engineers and analysts to build data pipelines and deplo",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "26. Nov 2025",
+      "key": "Tvinna:data-scientist-6",
+      "duplicate_group_key": "role:18197a0d7abe2884",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/data-scientist-6/",
+          "title": "Data Scientist",
+          "company": "Dohop"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "infra-wizard",
+      "title": "Infra Wizard",
+      "company": "AGR",
+      "location": "Iceland",
+      "published": "25. Mar 2026",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/infra-wizard/",
+      "snippet": "rity, and modern cloud operations. The Role We’re seeking an experienced Infrastructure & DevOps Engineer with a strong AI mindset to help us maintain, secure, and evolve our platform. You’ll be hands-on with daily operations while also contributing to our CIS compliance journey, infrastructure automation, and long-ter",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "25. Mar 2026",
+      "key": "Tvinna:infra-wizard",
+      "duplicate_group_key": "role:c795f177048f5768",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/infra-wizard/",
+          "title": "Infra Wizard",
+          "company": "AGR"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "product-software-developer",
+      "title": "Product Software Developer",
+      "company": "Aftra ehf.",
+      "location": "Iceland",
+      "published": "20. Jan 2026",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/product-software-developer/",
+      "snippet": "erest and/or experience working in web/application security is a big plus. Open Mindedness : An open-minded approach to AI development and tooling is welcome. We value pragmatic, results-focused engineering and not “vibe coding.” Benefits : Flexible working environment. A driven work culture with opportunities for care",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "20. Jan 2026",
+      "key": "Tvinna:product-software-developer",
+      "duplicate_group_key": "role:857383ff562c9646",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/product-software-developer/",
+          "title": "Product Software Developer",
+          "company": "Aftra ehf."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-devops-engineer-4",
+      "title": "Senior DevOps Engineer",
+      "company": "Kaptio",
+      "location": "Iceland",
+      "published": "8. Apr 2026",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
+      "snippet": "and the reliability of infrastructure Stay up-to-date with emerging technologies and DevOps best practices Interest in AI and a passion for finding creative solutions to evolving industry challenges Knowledge & experience: Extensive experience in deploying infrastructure As Code using Terraform within GCP Experience w",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "8. Apr 2026",
+      "key": "Tvinna:senior-devops-engineer-4",
+      "duplicate_group_key": "role:222401bf809db5a9",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-devops-engineer-4/",
+          "title": "Senior DevOps Engineer",
+          "company": "Kaptio"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-fintech-engineer",
+      "title": "Senior Fintech Engineer",
+      "company": "Igloo",
+      "location": "Iceland",
+      "published": "28. Nov 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-fintech-engineer/",
+      "snippet": "or Fintech Engineer — or a high-potential, A-Level emerging engineer with the drive and obsession to master fintech and AI-powered development — to join our core engineering team. You’ll help architect and build our ledger system, financial engines, and the surrounding platform that powers next-generation embedded fina",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "28. Nov 2025",
+      "key": "Tvinna:senior-fintech-engineer",
+      "duplicate_group_key": "role:0eafb0b550d9a9dc",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-fintech-engineer/",
+          "title": "Senior Fintech Engineer",
+          "company": "Igloo"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-lead-front-end-developer-2",
+      "title": "Senior Lead Front-End Developer",
+      "company": "URU.zone",
+      "location": "Iceland",
+      "published": "5. Dec 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-lead-front-end-developer-2/",
+      "snippet": "building the first intelligent strength-training ecosystem, featuring wearable hardware, motion tracking, and adaptive AI that responds to training in real-time. We have a working product app, ready for external testing. Your Mission Be responsible for developing the URU.app for launch. Architect, refine, and build an",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "5. Dec 2025",
+      "key": "Tvinna:senior-lead-front-end-developer-2",
+      "duplicate_group_key": "role:5f638430f18b7a12",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-lead-front-end-developer-2/",
+          "title": "Senior Lead Front-End Developer",
+          "company": "URU.zone"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-software-engineer-17",
+      "title": "Senior Software Engineer",
+      "company": "NetApp",
+      "location": "Iceland",
+      "published": "22. Jan 2026",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-software-engineer-17/",
+      "snippet": "ave deep experience with Go (golang), automation of developer workflows, and a strong interest in DevOps, security, and AI-driven solutions. The position focuses on building and maintaining robust automation for GitHub, enhancing test frameworks, and developing AI-powered log analysis and security features. Job Require",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "22. Jan 2026",
+      "key": "Tvinna:senior-software-engineer-17",
+      "duplicate_group_key": "role:dd2c09d68ca5058d",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-software-engineer-17/",
+          "title": "Senior Software Engineer",
+          "company": "NetApp"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -406,7 +1324,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -446,7 +1364,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -485,7 +1403,115 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "data-engineer-11",
+      "title": "Data engineer",
+      "company": "Abler",
+      "location": "Iceland",
+      "published": "24. Oct 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/data-engineer-11/",
+      "snippet": "what truly matters: developing people and communities through sport. We’re a fast-growing SaaS company evolving into an AI-first organization , where data is at the heart of everything we do . Our team of 30+ diverse individuals thrives on innovation, challenges, and collective impact. Backed by exceptional investors a",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "24. Oct 2025",
+      "key": "Tvinna:data-engineer-11",
+      "duplicate_group_key": "role:6af55212a1513b4c",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/data-engineer-11/",
+          "title": "Data engineer",
+          "company": "Abler"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 33,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: posting is older than six months.",
+        "positive_signals": [],
+        "negative_signals": [
+          "posting is older than six months"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "product-designer-9",
+      "title": "Product Designer",
+      "company": "Leviosa",
+      "location": "Iceland",
+      "published": "20. Oct 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/product-designer-9/",
+      "snippet": "– Are curious about how healthcare works and motivated to design tools that make a real impact. – Know how to leverage AI tools (e.g., for prototyping/wireframing, design exploration or workflow acceleration) and are eager to integrate them into your work. Desired Soft Skills – Excellent communication and teamwork abi",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "20. Oct 2025",
+      "key": "Tvinna:product-designer-9",
+      "duplicate_group_key": "role:050abea10d93063b",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/product-designer-9/",
+          "title": "Product Designer",
+          "company": "Leviosa"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 33,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: posting is older than six months.",
+        "positive_signals": [],
+        "negative_signals": [
+          "posting is older than six months"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-data-analyst-2",
+      "title": "Senior Data Analyst",
+      "company": "Bókun",
+      "location": "Iceland",
+      "published": "3. Nov 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-data-analyst-2/",
+      "snippet": "define requirements, establish data models, and help build and maintain our data warehouse Apply statistical modeling, AI, and machine learning techniques to move beyond descriptive analytics and provide predictive and prescriptive insights Embrace and utilize AI tools in your daily workflow to enhance productivity an",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "3. Nov 2025",
+      "key": "Tvinna:senior-data-analyst-2",
+      "duplicate_group_key": "role:19dced72c64afe5c",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-data-analyst-2/",
+          "title": "Senior Data Analyst",
+          "company": "Bókun"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 33,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: posting is older than six months.",
+        "positive_signals": [],
+        "negative_signals": [
+          "posting is older than six months"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -523,7 +1549,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -562,7 +1588,119 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred + LinkedIn",
+      "source_id": "167040",
+      "title": "AI-first Full Stack Developer",
+      "company": "TimeXtender",
+      "location": "Iceland",
+      "published": "2026-05-06T23:45:32Z",
+      "deadline": "",
+      "url": "https://alfred.is/starf/ai-first-full-stack-developer",
+      "snippet": "AI-first Full Stack Developer TimeXtender delivers secure, trusted, AI-ready data for every decision. Our metadata-first platform enables mid-sized enterprises to build future-proof data infrastructure 10x faster than traditional methods. By automating the complex layers of data ingestion, preparation, and delivery, Ti",
+      "matched_in": "title",
+      "status_note": "Merged from 2 matching source postings.",
+      "raw_date": "",
+      "key": "role:953567ad86d6e54e",
+      "duplicate_group_key": "role:953567ad86d6e54e",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-first-full-stack-developer",
+          "title": "AI-first Full Stack Developer",
+          "company": "TimeXtender"
+        },
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183?position=22&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jkpt7uI2gFhgzOckj074QA%3D%3D",
+          "title": "AI-first Full Stack Developer",
+          "company": "TimeXtender"
+        }
+      ],
+      "alternatives": [
+        {
+          "source": "Alfred",
+          "source_id": "167040",
+          "title": "AI-first Full Stack Developer",
+          "company": "TimeXtender",
+          "location": "Iceland",
+          "published": "2026-05-06T23:45:32Z",
+          "deadline": "",
+          "url": "https://alfred.is/starf/ai-first-full-stack-developer",
+          "snippet": "AI-first Full Stack Developer TimeXtender delivers secure, trusted, AI-ready data for every decision. Our metadata-first platform enables mid-sized enterprises to build future-proof data infrastructure 10x faster than traditional methods. By automating the complex layers of data ingestion, preparation, and delivery, Ti",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Alfred:167040",
+          "duplicate_group_key": "role:953567ad86d6e54e"
+        },
+        {
+          "source": "LinkedIn",
+          "source_id": "155c64a19c969c3e",
+          "title": "AI-first Full Stack Developer",
+          "company": "TimeXtender",
+          "location": "Iceland",
+          "published": "",
+          "deadline": "",
+          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183?position=22&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jkpt7uI2gFhgzOckj074QA%3D%3D",
+          "snippet": "AI-first Full Stack Developer AI-first Full Stack Developer TimeXtender Iceland 2 weeks ago",
+          "matched_in": "title",
+          "status_note": "",
+          "raw_date": "",
+          "key": "LinkedIn:155c64a19c969c3e",
+          "duplicate_group_key": "role:953567ad86d6e54e"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true,
+      "predicted_interest": {
+        "score": 29,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: generic full-stack is only a weak fit.",
+        "positive_signals": [],
+        "negative_signals": [
+          "generic full-stack is only a weak fit"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "643a1d2b98523801",
+      "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
+      "company": "Braintrust",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112?position=23&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=L5oWhqX%2BYb9LwZGQQHBbKw%3D%3D",
+      "snippet": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Braintrust Iceland 1 month ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:643a1d2b98523801",
+      "duplicate_group_key": "role:3a8ff16b6be90a14",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112?position=23&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=L5oWhqX%2BYb9LwZGQQHBbKw%3D%3D",
+          "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
+          "company": "Braintrust"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 29,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: generic full-stack is only a weak fit.",
+        "positive_signals": [],
+        "negative_signals": [
+          "generic full-stack is only a weak fit"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -600,7 +1738,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -638,7 +1776,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -676,7 +1814,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -754,7 +1892,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -792,7 +1930,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -804,8 +1942,8 @@
       "published": "23. Feb 2021",
       "deadline": "",
       "url": "https://www.tvinna.is/jobs/serfraedingar-i-hugb-throun-maltaekni-ai/",
-      "snippet": "ni/AI Háskólinn í Reykjavík 23. Feb 2021 Fullt starf Mál- og raddtæknistofa Háskólans í Reykjavík (HR), sem er hluti af Gervigreindarsetri HR, hlaut nýlega fimm styrki til tveggja ára til að vinna að rannsóknar- og þróunarverkefnum á sviði gervigreindar, máltækni og samskiptum manns og tölvu. Um er að ræða tvo styrki ú",
-      "matched_in": "content",
+      "snippet": "Sérfræðingar í hugb.þróun/máltækni/AI Um Tvinna Auglýstu starf Um Tvinna Auglýstu starf Sérfræðingar í hugb.þróun/máltækni/AI Háskólinn í Reykjavík 23. Feb 2021 Fullt starf Mál- og raddtæknistofa Háskólans í Reykjavík (HR), sem er hluti af Gervigreindarsetri HR, hlaut nýlega fimm styrki til tveggja ára til að vinna að",
+      "matched_in": "title",
       "status_note": "",
       "raw_date": "23. Feb 2021",
       "key": "Tvinna:serfraedingar-i-hugb-throun-maltaekni-ai",
@@ -830,7 +1968,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -868,7 +2006,43 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167372",
+      "title": "Tech Lead – Travel",
+      "company": "Icelandair",
+      "location": "Iceland",
+      "published": "2026-05-12T15:49:55Z",
+      "deadline": "2026-05-27T23:59:59Z",
+      "url": "https://alfred.is/starf/tech-lead-travel",
+      "snippet": "lity for scalability, quality and technical debt across frontend and backend. Stay hands-on where it matters most. Lead AI-assisted development practices - Champion the adoption of AI-assisted development across the team, setting the standard for how these tools are used effectively and responsibly as part of everyday",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167372",
+      "duplicate_group_key": "role:9f355ef4629ebfde",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/tech-lead-travel",
+          "title": "Tech Lead – Travel",
+          "company": "Icelandair"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 17,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: front-end programming is a poor fit.",
+        "positive_signals": [],
+        "negative_signals": [
+          "front-end programming is a poor fit"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -907,7 +2081,44 @@
           "generic full-stack is only a weak fit",
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
+      }
+    },
+    {
+      "source": "Tvinna",
+      "source_id": "senior-frontend-engineer",
+      "title": "Senior Frontend Engineer",
+      "company": "Optise",
+      "location": "Iceland",
+      "published": "12. Nov 2025",
+      "deadline": "",
+      "url": "https://www.tvinna.is/jobs/senior-frontend-engineer/",
+      "snippet": "5 Fullt starf Are you a Senior Frontend Engineer ready to pioneer the future of digital experiences? We are an exciting AI startup, based in Reykjavík, Iceland, ready to make a dent in the world. We’re on a mission to change the way websites evolve, leveraging AI to unlock smarter, faster, and more impactful digital ex",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "12. Nov 2025",
+      "key": "Tvinna:senior-frontend-engineer",
+      "duplicate_group_key": "role:44e4b82420a5bffb",
+      "source_links": [
+        {
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/senior-frontend-engineer/",
+          "title": "Senior Frontend Engineer",
+          "company": "Optise"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 5,
+        "label": "very low",
+        "rationale": "few positive fit signals. Caveats: front-end programming is a poor fit; posting is older than six months.",
+        "positive_signals": [],
+        "negative_signals": [
+          "front-end programming is a poor fit",
+          "posting is older than six months"
+        ],
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -946,7 +2157,7 @@
           "systems administration is only tangentially related",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -958,7 +2169,7 @@
       "published": "20. Oct 2020",
       "deadline": "",
       "url": "https://www.tvinna.is/jobs/personalized-internet-assessor-iceland-2/",
-      "snippet": "i þjálfunargagna í meira en 20 ár. Við vinnum með fremstu fyrirtækjum heims á sviði nýsköpunar að þróun og endurbótum á gervigreindarvörum þeirra. Hvort sem það er að gera niðurstöður leitarvéla meira viðeigandi, þjálfa stafræna þjónustufulltrúa í að skilja fleiri tungumál og mállýskur eða eitthvað þar á milli, þá vinn",
+      "snippet": "gjafi – Ísland Lionbridge 20. Oct 2020 Freelance Hlutastarf fyrir sjálfstæða verktaka sem vinna að heiman Um Lionbridge AI Lionbridge hefur verið leiðandi framleiðandi þjálfunargagna í meira en 20 ár. Við vinnum með fremstu fyrirtækjum heims á sviði nýsköpunar að þróun og endurbótum á gervigreindarvörum þeirra. Hvort s",
       "matched_in": "content",
       "status_note": "",
       "raw_date": "20. Oct 2020",
@@ -985,41 +2196,7 @@
           "assessor/evaluator gig is not a strong role fit",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-11T08:00:49+00:00"
-      }
-    },
-    {
-      "source": "Alfred",
-      "source_id": "167040",
-      "title": "AI-first Full Stack Developer",
-      "company": "TimeXtender",
-      "location": "Iceland",
-      "published": "2026-05-06T23:45:32Z",
-      "deadline": "",
-      "url": "https://alfred.is/starf/ai-first-full-stack-developer",
-      "snippet": "AI-first Full Stack Developer TimeXtender delivers secure, trusted, AI-ready data for every decision. Our metadata-first platform enables mid-sized enterprises to build future-proof data infrastructure 10x faster than traditional methods. By automating the complex layers of data ingestion, preparation, and delivery, Ti",
-      "matched_in": "search_result",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:167040",
-      "duplicate_group_key": "role:953567ad86d6e54e",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/ai-first-full-stack-developer",
-          "title": "AI-first Full Stack Developer",
-          "company": "TimeXtender"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": null,
-        "label": "rated",
-        "rationale": "Already marked maybe; explicit feedback overrides prediction.",
-        "positive_signals": [],
-        "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1053,7 +2230,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1087,7 +2264,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1121,7 +2298,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1155,41 +2332,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
-      }
-    },
-    {
-      "source": "Störf.is",
-      "source_id": "85309",
-      "title": "Sérfræðingur óskast til starfa",
-      "company": "Umhverf­is-, orku- og lofts­lags­ráðu­neytið",
-      "location": "Höfuðborgarsvæðið",
-      "published": "2026-04-30T03:22:12.647328Z",
-      "deadline": "2026-05-11T00:00:00",
-      "url": "https://island.is/starfatorg/x-46519",
-      "snippet": "ð gagnagrunna og leitað gagnvirkra leiða til að safna og miðla upplýsingum. Ráðuneytið leggur ríka áherslu á hagnýtingu gervigreindar og er það eitt af hlutverkum sérfræðingsins að styðja við þá áherslu. Háskólanám sem nýtist í starfi (s.s. fjármálaverkfræði, hagfræði, viðskiptafræði) Mjög góð greiningarfærni og geta t",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Störf.is:85309",
-      "duplicate_group_key": "role:c509a2331ae59190",
-      "source_links": [
-        {
-          "source": "Störf.is",
-          "url": "https://island.is/starfatorg/x-46519",
-          "title": "Sérfræðingur óskast til starfa",
-          "company": "Umhverf­is-, orku- og lofts­lags­ráðu­neytið"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": null,
-        "label": "rated",
-        "rationale": "Already marked rejected; explicit feedback overrides prediction.",
-        "positive_signals": [],
-        "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1263,7 +2406,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1297,7 +2440,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1331,7 +2474,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1365,7 +2508,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1399,7 +2542,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1411,7 +2554,7 @@
       "published": "11. Oct 2023",
       "deadline": "",
       "url": "https://www.tvinna.is/jobs/serfraedingur-i-spunagreind-maltaekni-og-mallikonum/",
-      "snippet": "g) og risamállíkana (e. large language models, LLMs) í fjölbreyttu og spennandi starfsumhverfi. Með nýtingu máltækni og gervigreindar viljum við gera góða þjónustu enn betri. Við sjáum fyrir okkur aukið og fjölbreyttara aðgengi að rafrænni bankaþjónustu í formi texta og talmáls í tölvum, símum og framtíðardreifileiðum,",
+      "snippet": "leita að öflugu og metnaðarfullu starfsfólki til að vinna að vegferð bankans í hagnýtingu spunagreindar (e. generative AI), máltækni (e. natural language processing) og risamállíkana (e. large language models, LLMs) í fjölbreyttu og spennandi starfsumhverfi. Með nýtingu máltækni og gervigreindar viljum við gera góða þ",
       "matched_in": "content",
       "status_note": "",
       "raw_date": "11. Oct 2023",
@@ -1433,7 +2576,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     },
     {
@@ -1467,7 +2610,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-11T08:00:49+00:00"
+        "profile_version": "2026-05-12T19:39:00+00:00"
       }
     }
   ],
@@ -1475,38 +2618,77 @@
     {
       "source": "alfred",
       "ok": true,
-      "url": "https://alfred.is/starfsvakt?search=gervigreind",
-      "total": 3,
-      "count": 3
+      "url": "https://alfred.is/starfsvakt?search=gervigreind, https://alfred.is/starfsvakt?search=AI",
+      "total": 330,
+      "search_terms": [
+        "gervigreind",
+        "AI"
+      ],
+      "term_totals": {
+        "gervigreind": 7,
+        "AI": 323
+      },
+      "count": 11
     },
     {
       "source": "storf",
       "ok": true,
-      "url": "https://www.storf.is/?s=gervigreind",
-      "total": 5,
-      "count": 5
+      "url": "https://www.storf.is/?s=gervigreind, https://www.storf.is/?s=AI",
+      "total": 112,
+      "search_terms": [
+        "gervigreind",
+        "AI"
+      ],
+      "term_totals": {
+        "gervigreind": 5,
+        "AI": 107
+      },
+      "count": 8
     },
     {
       "source": "tvinna",
       "ok": true,
-      "url": "https://www.tvinna.is/?s=gervigreind",
-      "total": 26,
-      "note": "Tvinna search includes older/archive postings; check dates/deadlines.",
-      "count": 26
+      "url": "https://www.tvinna.is/?s=gervigreind, https://www.tvinna.is/?s=AI",
+      "total": 56,
+      "search_terms": [
+        "gervigreind",
+        "AI"
+      ],
+      "term_totals": {
+        "gervigreind": 26,
+        "AI": 30
+      },
+      "note": "Tvinna search includes older/archive postings; check dates/deadlines. Standalone AI results are filtered on fetched detail text.",
+      "count": 38
     },
     {
       "source": "linkedin",
       "ok": true,
-      "url": "https://www.linkedin.com/jobs/search/?keywords=gervigreind&location=Iceland",
-      "total": 0,
-      "page_title": "0 Gervigreind jobs in Iceland",
-      "count": 0
+      "url": "https://www.linkedin.com/jobs/search/?keywords=gervigreind&location=Iceland, https://www.linkedin.com/jobs/search/?keywords=AI&location=Iceland",
+      "total": 9,
+      "search_terms": [
+        "gervigreind",
+        "AI"
+      ],
+      "page_title": {
+        "gervigreind": "0 Gervigreind jobs in Iceland",
+        "AI": "80 AI jobs in Iceland"
+      },
+      "count": 9
     },
     {
       "source": "jobis",
       "ok": true,
-      "url": "https://www.job.is/?s=gervigreind",
+      "url": "https://www.job.is/?s=gervigreind, https://www.job.is/?s=AI",
       "total": 0,
+      "search_terms": [
+        "gervigreind",
+        "AI"
+      ],
+      "term_totals": {
+        "gervigreind": 0,
+        "AI": 0
+      },
       "note": "Best-effort public HTML search; may miss client-side/authenticated listings.",
       "count": 0
     }
