@@ -4,9 +4,9 @@
     "gervigreind",
     "AI"
   ],
-  "updated_at": "2026-05-13T08:01:24+00:00",
+  "updated_at": "2026-05-13T14:22:07+00:00",
   "preference_profile": {
-    "exportedAt": "2026-05-13T08:01:24+00:00",
+    "exportedAt": "2026-05-13T14:22:07+00:00",
     "purpose": "preferenceProfile for scoring and ordering unreviewed Iceland AI roles",
     "ratingCounts": {
       "rejected": 19,
@@ -304,7 +304,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -344,7 +344,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -384,43 +384,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
-      }
-    },
-    {
-      "source": "Alfred",
-      "source_id": "167041",
-      "title": "Forritari / hugbúnaðarþróunaraðili óskast í spennandi fiskeldis- og tækniverkefni",
-      "company": "KAPP ehf",
-      "location": "Iceland",
-      "published": "2026-05-11T13:15:52Z",
-      "deadline": "2026-05-31T23:59:59Z",
-      "url": "https://alfred.is/starf/forritari-hugbunadarthrounaradili-oskast-i-spennandi-fiskeldis-og-taekniverkefni",
-      "snippet": "fnið snýr að vatnsgæðavöktun, IoT-mælibúnaði, gagnasöfnun, greiningu, mælaborðum og síðar tengingu við myndgreiningu og AI-greiningu í fiskeldi. Við leitum að forritara eða hugbúnaðarþróunaraðila sem vill koma að uppbyggingu lausnarinnar frá fyrstu stigum og taka þátt í að þróa kerfi sem getur haft raunverulegt notagil",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:167041",
-      "duplicate_group_key": "role:61d90fca3988fc42",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/forritari-hugbunadarthrounaradili-oskast-i-spennandi-fiskeldis-og-taekniverkefni",
-          "title": "Forritari / hugbúnaðarþróunaraðili óskast í spennandi fiskeldis- og tækniverkefni",
-          "company": "KAPP ehf"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 55,
-        "label": "medium",
-        "rationale": "analytics/data analysis. Caveats: no major negative signals.",
-        "positive_signals": [
-          "analytics/data analysis"
-        ],
-        "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -456,7 +420,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -492,7 +456,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -528,7 +492,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -567,70 +531,70 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
-      "source": "Alfred + LinkedIn",
-      "source_id": "167267",
-      "title": "AI Solutions Analyst",
-      "company": "atNorth",
+      "source": "Alfred + Tvinna",
+      "source_id": "167354",
+      "title": "IT Engineer",
+      "company": "Lucinity",
       "location": "Iceland",
-      "published": "2026-05-11T13:15:19Z",
-      "deadline": "2026-05-31T23:59:59Z",
-      "url": "https://alfred.is/starf/ai-solutions-analyst",
-      "snippet": "AI Solutions Analyst atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are des",
-      "matched_in": "title",
+      "published": "2026-05-13T10:28:39Z",
+      "deadline": "2026-05-27T23:59:59Z",
+      "url": "https://alfred.is/starf/it-engineer",
+      "snippet": "eer Um Tvinna Auglýstu starf Um Tvinna Auglýstu starf IT Engineer Lucinity 13. May 2026 Fullt starf Lucinity is a Human AI company fighting financial crime — blending human judgement with AI to help compliance teams increase capacity and strengthen oversight without giving up control. We’re now building the next genera",
+      "matched_in": "content",
       "status_note": "Merged from 2 matching source postings.",
       "raw_date": "",
-      "key": "role:528ee6c501e14b61",
-      "duplicate_group_key": "role:528ee6c501e14b61",
+      "key": "role:9319a1a7077cf429",
+      "duplicate_group_key": "role:9319a1a7077cf429",
       "source_links": [
         {
           "source": "Alfred",
-          "url": "https://alfred.is/starf/ai-solutions-analyst",
-          "title": "AI Solutions Analyst",
-          "company": "atNorth"
+          "url": "https://alfred.is/starf/it-engineer",
+          "title": "IT Engineer",
+          "company": "Lucinity"
         },
         {
-          "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
-          "title": "AI Solutions Analyst",
-          "company": "atNorth"
+          "source": "Tvinna",
+          "url": "https://www.tvinna.is/jobs/it-engineer/",
+          "title": "IT Engineer",
+          "company": "Lucinity"
         }
       ],
       "alternatives": [
         {
           "source": "Alfred",
-          "source_id": "167267",
-          "title": "AI Solutions Analyst",
-          "company": "atNorth",
+          "source_id": "167354",
+          "title": "IT Engineer",
+          "company": "Lucinity",
           "location": "Iceland",
-          "published": "2026-05-11T13:15:19Z",
-          "deadline": "2026-05-31T23:59:59Z",
-          "url": "https://alfred.is/starf/ai-solutions-analyst",
-          "snippet": "AI Solutions Analyst atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are des",
-          "matched_in": "title",
+          "published": "2026-05-13T10:28:39Z",
+          "deadline": "2026-05-27T23:59:59Z",
+          "url": "https://alfred.is/starf/it-engineer",
+          "snippet": "IT Engineer Lucinity is a Human AI company fighting financial crime — blending human judgement with AI to help compliance teams increase capacity and strengthen oversight without giving up control. We're now building the next generation of Human AI Operations — the next step in how AI and people work together to run a",
+          "matched_in": "content",
           "status_note": "",
           "raw_date": "",
-          "key": "Alfred:167267",
-          "duplicate_group_key": "role:528ee6c501e14b61"
+          "key": "Alfred:167354",
+          "duplicate_group_key": "role:9319a1a7077cf429"
         },
         {
-          "source": "LinkedIn",
-          "source_id": "ac22e3c3d431820f",
-          "title": "AI Solutions Analyst",
-          "company": "atNorth",
-          "location": "Hafnarfjörður, Capital Region, Iceland",
-          "published": "",
+          "source": "Tvinna",
+          "source_id": "it-engineer",
+          "title": "IT Engineer",
+          "company": "Lucinity",
+          "location": "Iceland",
+          "published": "13. May 2026",
           "deadline": "",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
-          "snippet": "AI Solutions Analyst AI Solutions Analyst atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
-          "matched_in": "title",
+          "url": "https://www.tvinna.is/jobs/it-engineer/",
+          "snippet": "eer Um Tvinna Auglýstu starf Um Tvinna Auglýstu starf IT Engineer Lucinity 13. May 2026 Fullt starf Lucinity is a Human AI company fighting financial crime — blending human judgement with AI to help compliance teams increase capacity and strengthen oversight without giving up control. We’re now building the next genera",
+          "matched_in": "content",
           "status_note": "",
-          "raw_date": "",
-          "key": "LinkedIn:ac22e3c3d431820f",
-          "duplicate_group_key": "role:528ee6c501e14b61"
+          "raw_date": "13. May 2026",
+          "key": "Tvinna:it-engineer",
+          "duplicate_group_key": "role:9319a1a7077cf429"
         }
       ],
       "duplicate_count": 2,
@@ -641,81 +605,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
-      }
-    },
-    {
-      "source": "Alfred + LinkedIn",
-      "source_id": "167264",
-      "title": "AI Solutions Engineer",
-      "company": "atNorth",
-      "location": "Iceland",
-      "published": "2026-05-11T13:04:52Z",
-      "deadline": "2026-05-31T23:59:59Z",
-      "url": "https://alfred.is/starf/ai-solutions-engineer",
-      "snippet": "AI Solutions Engineer atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are de",
-      "matched_in": "title",
-      "status_note": "Merged from 2 matching source postings.",
-      "raw_date": "",
-      "key": "role:320d781a37cce270",
-      "duplicate_group_key": "role:320d781a37cce270",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/ai-solutions-engineer",
-          "title": "AI Solutions Engineer",
-          "company": "atNorth"
-        },
-        {
-          "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
-          "title": "AI Solutions Engineer",
-          "company": "atNorth"
-        }
-      ],
-      "alternatives": [
-        {
-          "source": "Alfred",
-          "source_id": "167264",
-          "title": "AI Solutions Engineer",
-          "company": "atNorth",
-          "location": "Iceland",
-          "published": "2026-05-11T13:04:52Z",
-          "deadline": "2026-05-31T23:59:59Z",
-          "url": "https://alfred.is/starf/ai-solutions-engineer",
-          "snippet": "AI Solutions Engineer atNorth is a leading Nordic data center company providing cost-effective, scalable high-density colocation and built-to-suit services to industry-leading organizations across Iceland, Sweden, Finland, and Denmark. With sustainability at our core, our data centers run on renewable energy and are de",
-          "matched_in": "title",
-          "status_note": "",
-          "raw_date": "",
-          "key": "Alfred:167264",
-          "duplicate_group_key": "role:320d781a37cce270"
-        },
-        {
-          "source": "LinkedIn",
-          "source_id": "b4eb62cfef42179d",
-          "title": "AI Solutions Engineer",
-          "company": "atNorth",
-          "location": "Hafnarfjörður, Capital Region, Iceland",
-          "published": "",
-          "deadline": "",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
-          "snippet": "AI Solutions Engineer AI Solutions Engineer atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
-          "matched_in": "title",
-          "status_note": "",
-          "raw_date": "",
-          "key": "LinkedIn:b4eb62cfef42179d",
-          "duplicate_group_key": "role:320d781a37cce270"
-        }
-      ],
-      "duplicate_count": 2,
-      "duplicate": true,
-      "predicted_interest": {
-        "score": 45,
-        "label": "unknown",
-        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
-        "positive_signals": [],
-        "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -749,7 +639,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -761,7 +651,7 @@
       "published": "",
       "deadline": "",
       "url": "https://is.linkedin.com/jobs/view/ai-data-specialist-icelandic-at-rws-group-4410361291",
-      "snippet": "AI Data Specialist - Icelandic AI Data Specialist - Icelandic RWS Group Iceland Be an early applicant 3 hours ago",
+      "snippet": "AI Data Specialist - Icelandic AI Data Specialist - Icelandic RWS Group Iceland Be an early applicant 9 hours ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
@@ -783,7 +673,75 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "ac22e3c3d431820f",
+      "title": "AI Solutions Analyst",
+      "company": "atNorth",
+      "location": "Hafnarfjörður, Capital Region, Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
+      "snippet": "AI Solutions Analyst AI Solutions Analyst atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:ac22e3c3d431820f",
+      "duplicate_group_key": "role:528ee6c501e14b61",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
+          "title": "AI Solutions Analyst",
+          "company": "atNorth"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T14:22:07+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "b4eb62cfef42179d",
+      "title": "AI Solutions Engineer",
+      "company": "atNorth",
+      "location": "Hafnarfjörður, Capital Region, Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
+      "snippet": "AI Solutions Engineer AI Solutions Engineer atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:b4eb62cfef42179d",
+      "duplicate_group_key": "role:320d781a37cce270",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
+          "title": "AI Solutions Engineer",
+          "company": "atNorth"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -795,7 +753,7 @@
       "published": "",
       "deadline": "",
       "url": "https://is.linkedin.com/jobs/view/ai-trainer-at-innodata-inc-4410354693",
-      "snippet": "AI Trainer AI Trainer Innodata Inc. Iceland Be an early applicant 1 hour ago",
+      "snippet": "AI Trainer AI Trainer Innodata Inc. Iceland Be an early applicant 7 hours ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
@@ -817,7 +775,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -851,7 +809,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -863,7 +821,7 @@
       "published": "",
       "deadline": "",
       "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423",
-      "snippet": "Icelandic Speaker - AI Testing Project Icelandic Speaker - AI Testing Project Lionbridge Technologies Iceland Be an early applicant 6 days ago",
+      "snippet": "Icelandic Speaker - AI Testing Project Icelandic Speaker - AI Testing Project Lionbridge Technologies Iceland Be an early applicant 1 week ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
@@ -885,7 +843,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -919,7 +877,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -953,7 +911,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -987,7 +945,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1061,7 +1019,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1095,7 +1053,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1129,7 +1087,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1163,7 +1121,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1197,7 +1155,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1231,7 +1189,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1265,7 +1223,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1299,7 +1257,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1337,7 +1295,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1377,7 +1335,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1416,7 +1374,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1452,43 +1410,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
-      }
-    },
-    {
-      "source": "Tvinna",
-      "source_id": "product-designer-9",
-      "title": "Product Designer",
-      "company": "Leviosa",
-      "location": "Iceland",
-      "published": "20. Oct 2025",
-      "deadline": "",
-      "url": "https://www.tvinna.is/jobs/product-designer-9/",
-      "snippet": "– Are curious about how healthcare works and motivated to design tools that make a real impact. – Know how to leverage AI tools (e.g., for prototyping/wireframing, design exploration or workflow acceleration) and are eager to integrate them into your work. Desired Soft Skills – Excellent communication and teamwork abi",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "20. Oct 2025",
-      "key": "Tvinna:product-designer-9",
-      "duplicate_group_key": "role:050abea10d93063b",
-      "source_links": [
-        {
-          "source": "Tvinna",
-          "url": "https://www.tvinna.is/jobs/product-designer-9/",
-          "title": "Product Designer",
-          "company": "Leviosa"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 33,
-        "label": "very low",
-        "rationale": "few positive fit signals. Caveats: posting is older than six months.",
-        "positive_signals": [],
-        "negative_signals": [
-          "posting is older than six months"
-        ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1524,7 +1446,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1562,7 +1484,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1601,7 +1523,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1677,7 +1599,7 @@
         "negative_signals": [
           "generic full-stack is only a weak fit"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1715,7 +1637,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1753,7 +1675,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1791,7 +1713,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1869,7 +1791,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1907,7 +1829,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1945,7 +1867,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -1983,7 +1905,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2059,7 +1981,7 @@
         "negative_signals": [
           "front-end programming is a poor fit"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2098,7 +2020,7 @@
           "generic full-stack is only a weak fit",
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2135,7 +2057,7 @@
           "front-end programming is a poor fit",
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2174,7 +2096,7 @@
           "systems administration is only tangentially related",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2213,7 +2135,7 @@
           "assessor/evaluator gig is not a strong role fit",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2247,7 +2169,7 @@
         "rationale": "Already marked applied; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2281,7 +2203,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2315,7 +2237,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2349,7 +2271,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2361,7 +2283,7 @@
       "published": "",
       "deadline": "",
       "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989",
-      "snippet": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) Prolific Iceland Be an early applicant 21 hours ago",
+      "snippet": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) Prolific Iceland Be an early applicant 1 day ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
@@ -2383,7 +2305,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2417,7 +2339,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2451,7 +2373,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2485,7 +2407,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2559,7 +2481,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2593,7 +2515,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2627,7 +2549,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2661,7 +2583,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2695,7 +2617,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2729,7 +2651,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     },
     {
@@ -2763,7 +2685,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-13T08:01:24+00:00"
+        "profile_version": "2026-05-13T14:22:07+00:00"
       }
     }
   ],
@@ -2772,16 +2694,16 @@
       "source": "alfred",
       "ok": true,
       "url": "https://alfred.is/starfsvakt?search=gervigreind, https://alfred.is/starfsvakt?search=AI",
-      "total": 310,
+      "total": 324,
       "search_terms": [
         "gervigreind",
         "AI"
       ],
       "term_totals": {
-        "gervigreind": 7,
-        "AI": 303
+        "gervigreind": 8,
+        "AI": 316
       },
-      "count": 11
+      "count": 9
     },
     {
       "source": "storf",
@@ -2825,7 +2747,7 @@
       ],
       "page_title": {
         "gervigreind": "0 Gervigreind jobs in Iceland",
-        "AI": "84 AI jobs in Iceland"
+        "AI": "85 AI jobs in Iceland"
       },
       "count": 11
     },
