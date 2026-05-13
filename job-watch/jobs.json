@@ -4,16 +4,17 @@
     "gervigreind",
     "AI"
   ],
-  "updated_at": "2026-05-12T19:39:00+00:00",
+  "updated_at": "2026-05-13T08:01:24+00:00",
   "preference_profile": {
-    "exportedAt": "2026-05-12T19:39:00+00:00",
+    "exportedAt": "2026-05-13T08:01:24+00:00",
     "purpose": "preferenceProfile for scoring and ordering unreviewed Iceland AI roles",
     "ratingCounts": {
-      "rejected": 15,
+      "rejected": 19,
       "maybe": 2,
-      "liked": 2
+      "liked": 2,
+      "applied": 1
     },
-    "feedbackCount": 19,
+    "feedbackCount": 24,
     "preferenceNotes": [
       "Strong positive signals: explicit AI/data-science/data-engineering/NLP/LLM/product-AI emphasis, especially where the work is central rather than incidental.",
       "Maybe signals: AI-focused QA or full-stack can be worth a look, but generic QA/full-stack is not enough by itself.",
@@ -90,7 +91,7 @@
         "title": "Sérhæfðar fjárfestingar",
         "source": "Alfred",
         "url": "https://alfred.is/starf/serhaefdar-fjarfestingar-1",
-        "createdAt": "2026-05-08T13:09:39.905Z"
+        "createdAt": "2026-05-12T23:32:23.206Z"
       },
       {
         "key": "Alfred:166469",
@@ -211,6 +212,56 @@
         "source": "Tvinna",
         "url": "https://www.tvinna.is/jobs/serfraedingur-i-spunagreind-maltaekni-og-mallikonum/",
         "createdAt": "2026-05-10T16:13:25.373Z"
+      },
+      {
+        "key": "Alfred:167238",
+        "rating": "rejected",
+        "reason": "I'm not a lawyer or a legal expert",
+        "company": "Íslandsbanki",
+        "title": "Yfirlögfræðingur",
+        "source": "Alfred",
+        "url": "https://alfred.is/starf/yfirloegfraedingur-8",
+        "createdAt": "2026-05-12T23:17:26.012Z"
+      },
+      {
+        "key": "LinkedIn:1b96e1f2e5a322bc",
+        "rating": "rejected",
+        "reason": "Not interested in AI training and also i don't think this was in iceland",
+        "company": "Prolific",
+        "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
+        "source": "LinkedIn",
+        "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989",
+        "createdAt": "2026-05-12T23:18:32.600Z"
+      },
+      {
+        "key": "Alfred:167298",
+        "rating": "applied",
+        "reason": "Pretty much a perfect fit",
+        "company": "TACTICA",
+        "title": "Langar þig að vera AI Orchestrator",
+        "source": "Alfred",
+        "url": "https://alfred.is/starf/ai-orchestrator-oskast",
+        "createdAt": "2026-05-12T23:29:55.202Z"
+      },
+      {
+        "key": "Alfred:167372",
+        "rating": "rejected",
+        "reason": "The ai aspect is interesting but it's very software and management focused so not ideal but also not terrible fit",
+        "company": "Icelandair",
+        "title": "Tech Lead – Travel",
+        "source": "Alfred",
+        "url": "https://alfred.is/starf/tech-lead-travel",
+        "createdAt": "2026-05-12T23:31:24.636Z"
+      },
+      {
+        "key": "LinkedIn:a796816af500cc4a",
+        "rating": "rejected",
+        "reason": "Not looking for remote role or teaching role",
+        "company": "Braintrust",
+        "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
+        "source": "LinkedIn",
+        "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112",
+        "createdAt": "2026-05-12T23:31:54.706Z"
       }
     ]
   },
@@ -253,7 +304,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -293,7 +344,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -333,7 +384,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -369,7 +420,7 @@
           "analytics/data analysis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -405,43 +456,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
-      }
-    },
-    {
-      "source": "Alfred",
-      "source_id": "167298",
-      "title": "Langar þig að vera AI Orchestrator",
-      "company": "TACTICA",
-      "location": "Iceland",
-      "published": "2026-05-12T10:37:40Z",
-      "deadline": "",
-      "url": "https://alfred.is/starf/ai-orchestrator-oskast",
-      "snippet": "Langar þig að vera AI Orchestrator Langar þig að vinna í fremstu víglínu gervigreindar? TACTICA leitar að framsýnum og drífandi AI Orchestrator sem þorir að hugsa stórt og er tilbúinn að taka þátt í að móta hvernig fyrirtækið nýtir gervigreind í daglegum rekstri. Langar þig að vinna í fremstu víglínu gervigreindar? TAC",
-      "matched_in": "title",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:167298",
-      "duplicate_group_key": "role:3039c6555b13ef06",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/ai-orchestrator-oskast",
-          "title": "Langar þig að vera AI Orchestrator",
-          "company": "TACTICA"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 55,
-        "label": "medium",
-        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
-        "positive_signals": [
-          "explicit AI/gervigreind emphasis"
-        ],
-        "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -477,43 +492,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
-      }
-    },
-    {
-      "source": "Alfred",
-      "source_id": "167238",
-      "title": "Yfirlögfræðingur",
-      "company": "Íslandsbanki",
-      "location": "Iceland",
-      "published": "2026-05-11T13:43:08Z",
-      "deadline": "2026-05-19T23:59:59Z",
-      "url": "https://alfred.is/starf/yfirloegfraedingur-8",
-      "snippet": "ingu þar sem áhersla er lögð á einfaldara skipulag, skýrari ábyrgð, gagnadrifna ákvarðanatöku og aukna nýtingu tækni og gervigreindar. Umsókn skal fylgja ferilskrá og ítarlegt kynningarbréf á íslensku þar sem gerð er grein fyrir ástæðu umsóknar og rökstuðningur um hæfni viðkomandi til að gegna starfinu. Nánari upplýsin",
-      "matched_in": "content",
-      "status_note": "",
-      "raw_date": "",
-      "key": "Alfred:167238",
-      "duplicate_group_key": "role:70ed6f0da7097e2c",
-      "source_links": [
-        {
-          "source": "Alfred",
-          "url": "https://alfred.is/starf/yfirloegfraedingur-8",
-          "title": "Yfirlögfræðingur",
-          "company": "Íslandsbanki"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 55,
-        "label": "medium",
-        "rationale": "explicit AI/gervigreind emphasis. Caveats: no major negative signals.",
-        "positive_signals": [
-          "explicit AI/gervigreind emphasis"
-        ],
-        "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -549,7 +528,7 @@
           "explicit AI/gervigreind emphasis"
         ],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -588,7 +567,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -615,7 +594,7 @@
         },
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948?position=1&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=D%2FSClql1NV9HxZ5jWU39fA%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
           "title": "AI Solutions Analyst",
           "company": "atNorth"
         }
@@ -639,18 +618,18 @@
         },
         {
           "source": "LinkedIn",
-          "source_id": "83c331d7b1b467ee",
+          "source_id": "ac22e3c3d431820f",
           "title": "AI Solutions Analyst",
           "company": "atNorth",
           "location": "Hafnarfjörður, Capital Region, Iceland",
           "published": "",
           "deadline": "",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948?position=1&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=D%2FSClql1NV9HxZ5jWU39fA%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-analyst-at-atnorth-4409963948",
           "snippet": "AI Solutions Analyst AI Solutions Analyst atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
           "matched_in": "title",
           "status_note": "",
           "raw_date": "",
-          "key": "LinkedIn:83c331d7b1b467ee",
+          "key": "LinkedIn:ac22e3c3d431820f",
           "duplicate_group_key": "role:528ee6c501e14b61"
         }
       ],
@@ -662,7 +641,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -689,7 +668,7 @@
         },
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184?position=3&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=gjD3X6BO9jeh4KefhM70rg%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
           "title": "AI Solutions Engineer",
           "company": "atNorth"
         }
@@ -713,18 +692,18 @@
         },
         {
           "source": "LinkedIn",
-          "source_id": "20a911380165a6e7",
+          "source_id": "b4eb62cfef42179d",
           "title": "AI Solutions Engineer",
           "company": "atNorth",
           "location": "Hafnarfjörður, Capital Region, Iceland",
           "published": "",
           "deadline": "",
-          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184?position=3&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=gjD3X6BO9jeh4KefhM70rg%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-solutions-engineer-at-atnorth-4409978184",
           "snippet": "AI Solutions Engineer AI Solutions Engineer atNorth Hafnarfjörður, Capital Region, Iceland Be an early applicant 6 days ago",
           "matched_in": "title",
           "status_note": "",
           "raw_date": "",
-          "key": "LinkedIn:20a911380165a6e7",
+          "key": "LinkedIn:b4eb62cfef42179d",
           "duplicate_group_key": "role:320d781a37cce270"
         }
       ],
@@ -736,28 +715,28 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
       "source": "LinkedIn",
-      "source_id": "bfac87af292699c9",
+      "source_id": "5fb1bdde85d4466c",
       "title": "AI Co-Founder / CEO (100 % remote) (m/f/d)",
       "company": "EWOR",
       "location": "Reykjavík, Capital Region, Iceland",
       "published": "",
       "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327?position=9&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jD7Zde3Oajaye82qACSU0A%3D%3D",
+      "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327",
       "snippet": "AI Co-Founder / CEO (100 % remote) (m/f/d) AI Co-Founder / CEO (100 % remote) (m/f/d) EWOR Reykjavík, Capital Region, Iceland Be an early applicant 4 days ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
-      "key": "LinkedIn:bfac87af292699c9",
+      "key": "LinkedIn:5fb1bdde85d4466c",
       "duplicate_group_key": "role:53306290c002a29d",
       "source_links": [
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327?position=9&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jD7Zde3Oajaye82qACSU0A%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4412169327",
           "title": "AI Co-Founder / CEO (100 % remote) (m/f/d)",
           "company": "EWOR"
         }
@@ -770,30 +749,30 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
       "source": "LinkedIn",
-      "source_id": "afed2ade5640153e",
-      "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
-      "company": "Prolific",
+      "source_id": "c7467d6ceff8cbec",
+      "title": "AI Data Specialist - Icelandic",
+      "company": "RWS Group",
       "location": "Iceland",
       "published": "",
       "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989?position=14&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=tkrDymfNVh0%2Fj8fPaueJlA%3D%3D",
-      "snippet": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) Prolific Iceland Be an early applicant 8 hours ago",
+      "url": "https://is.linkedin.com/jobs/view/ai-data-specialist-icelandic-at-rws-group-4410361291",
+      "snippet": "AI Data Specialist - Icelandic AI Data Specialist - Icelandic RWS Group Iceland Be an early applicant 3 hours ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
-      "key": "LinkedIn:afed2ade5640153e",
-      "duplicate_group_key": "role:1af29b24c3147767",
+      "key": "LinkedIn:c7467d6ceff8cbec",
+      "duplicate_group_key": "role:0c7c81cd5e2b504e",
       "source_links": [
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989?position=14&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=tkrDymfNVh0%2Fj8fPaueJlA%3D%3D",
-          "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
-          "company": "Prolific"
+          "url": "https://is.linkedin.com/jobs/view/ai-data-specialist-icelandic-at-rws-group-4410361291",
+          "title": "AI Data Specialist - Icelandic",
+          "company": "RWS Group"
         }
       ],
       "alternatives": [],
@@ -804,28 +783,62 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
       "source": "LinkedIn",
-      "source_id": "498c2ea73aaf1ed5",
+      "source_id": "f1ee0dcf4fd4e969",
+      "title": "AI Trainer",
+      "company": "Innodata Inc.",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-trainer-at-innodata-inc-4410354693",
+      "snippet": "AI Trainer AI Trainer Innodata Inc. Iceland Be an early applicant 1 hour ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:f1ee0dcf4fd4e969",
+      "duplicate_group_key": "role:3427fb4779065d8c",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-trainer-at-innodata-inc-4410354693",
+          "title": "AI Trainer",
+          "company": "Innodata Inc."
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": 45,
+        "label": "unknown",
+        "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T08:01:24+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "756771f9d2a7e8f9",
       "title": "AI-enabled Senior Software Engineer (Typescript Focus)",
       "company": "AccessOwl",
       "location": "Iceland",
       "published": "",
       "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022?position=15&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=kuetqoqCSx0BUk7s5w9cqw%3D%3D",
+      "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022",
       "snippet": "AI-enabled Senior Software Engineer (Typescript Focus) AI-enabled Senior Software Engineer (Typescript Focus) AccessOwl Iceland Be an early applicant 1 month ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
-      "key": "LinkedIn:498c2ea73aaf1ed5",
+      "key": "LinkedIn:756771f9d2a7e8f9",
       "duplicate_group_key": "role:12b5df53af54ae2e",
       "source_links": [
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022?position=15&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=kuetqoqCSx0BUk7s5w9cqw%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-enabled-senior-software-engineer-typescript-focus-at-accessowl-4390983022",
           "title": "AI-enabled Senior Software Engineer (Typescript Focus)",
           "company": "AccessOwl"
         }
@@ -838,28 +851,28 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
       "source": "LinkedIn",
-      "source_id": "8591ece231c2aff2",
+      "source_id": "898f2f7ccf4cea09",
       "title": "Icelandic Speaker - AI Testing Project",
       "company": "Lionbridge Technologies",
       "location": "Iceland",
       "published": "",
       "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423?position=51&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=xDPdPCrCYFUX0JbTbqFdWA%3D%3D",
+      "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423",
       "snippet": "Icelandic Speaker - AI Testing Project Icelandic Speaker - AI Testing Project Lionbridge Technologies Iceland Be an early applicant 6 days ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
-      "key": "LinkedIn:8591ece231c2aff2",
+      "key": "LinkedIn:898f2f7ccf4cea09",
       "duplicate_group_key": "role:c45843e78a0dd4e2",
       "source_links": [
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423?position=51&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=xDPdPCrCYFUX0JbTbqFdWA%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/icelandic-speaker-ai-testing-project-at-lionbridge-technologies-4408810423",
           "title": "Icelandic Speaker - AI Testing Project",
           "company": "Lionbridge Technologies"
         }
@@ -872,28 +885,28 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
       "source": "LinkedIn",
-      "source_id": "0988f15817c5b754",
+      "source_id": "7acdfa48edb65098",
       "title": "Icelandic Speakers - Test Voice Modes of AI Models",
       "company": "Productive Playhouse",
       "location": "Reykjavík, Capital Region, Iceland",
       "published": "",
       "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332?position=48&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=djmjJE2sykcH%2FggMlx7lmg%3D%3D",
+      "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332",
       "snippet": "Icelandic Speakers - Test Voice Modes of AI Models Icelandic Speakers - Test Voice Modes of AI Models Productive Playhouse Reykjavík, Capital Region, Iceland Be an early applicant 5 months ago",
       "matched_in": "title",
       "status_note": "",
       "raw_date": "",
-      "key": "LinkedIn:0988f15817c5b754",
+      "key": "LinkedIn:7acdfa48edb65098",
       "duplicate_group_key": "role:214644f23fc35263",
       "source_links": [
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332?position=48&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=djmjJE2sykcH%2FggMlx7lmg%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/icelandic-speakers-test-voice-modes-of-ai-models-at-productive-playhouse-4348573332",
           "title": "Icelandic Speakers - Test Voice Modes of AI Models",
           "company": "Productive Playhouse"
         }
@@ -906,7 +919,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -940,7 +953,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -974,7 +987,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1048,7 +1061,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1082,7 +1095,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1116,7 +1129,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1150,7 +1163,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1184,7 +1197,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1218,7 +1231,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1252,7 +1265,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1286,7 +1299,7 @@
         "rationale": "Not enough strong preference signals in the title/snippet; review manually.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1324,7 +1337,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1364,7 +1377,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1403,7 +1416,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1439,7 +1452,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1475,7 +1488,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1511,7 +1524,7 @@
         "negative_signals": [
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1549,7 +1562,7 @@
         "negative_signals": [
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1588,7 +1601,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1615,7 +1628,7 @@
         },
         {
           "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183?position=22&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jkpt7uI2gFhgzOckj074QA%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183",
           "title": "AI-first Full Stack Developer",
           "company": "TimeXtender"
         }
@@ -1639,18 +1652,18 @@
         },
         {
           "source": "LinkedIn",
-          "source_id": "155c64a19c969c3e",
+          "source_id": "75471f49e22df9ae",
           "title": "AI-first Full Stack Developer",
           "company": "TimeXtender",
           "location": "Iceland",
           "published": "",
           "deadline": "",
-          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183?position=22&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=jkpt7uI2gFhgzOckj074QA%3D%3D",
+          "url": "https://is.linkedin.com/jobs/view/ai-first-full-stack-developer-at-timextender-4406638183",
           "snippet": "AI-first Full Stack Developer AI-first Full Stack Developer TimeXtender Iceland 2 weeks ago",
           "matched_in": "title",
           "status_note": "",
           "raw_date": "",
-          "key": "LinkedIn:155c64a19c969c3e",
+          "key": "LinkedIn:75471f49e22df9ae",
           "duplicate_group_key": "role:953567ad86d6e54e"
         }
       ],
@@ -1664,43 +1677,7 @@
         "negative_signals": [
           "generic full-stack is only a weak fit"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
-      }
-    },
-    {
-      "source": "LinkedIn",
-      "source_id": "643a1d2b98523801",
-      "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
-      "company": "Braintrust",
-      "location": "Iceland",
-      "published": "",
-      "deadline": "",
-      "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112?position=23&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=L5oWhqX%2BYb9LwZGQQHBbKw%3D%3D",
-      "snippet": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Braintrust Iceland 1 month ago",
-      "matched_in": "title",
-      "status_note": "",
-      "raw_date": "",
-      "key": "LinkedIn:643a1d2b98523801",
-      "duplicate_group_key": "role:3a8ff16b6be90a14",
-      "source_links": [
-        {
-          "source": "LinkedIn",
-          "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112?position=23&pageNum=0&refId=%2BUrnDuUXIHRWagxzyeB22g%3D%3D&trackingId=L5oWhqX%2BYb9LwZGQQHBbKw%3D%3D",
-          "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
-          "company": "Braintrust"
-        }
-      ],
-      "alternatives": [],
-      "duplicate_count": 1,
-      "predicted_interest": {
-        "score": 29,
-        "label": "very low",
-        "rationale": "few positive fit signals. Caveats: generic full-stack is only a weak fit.",
-        "positive_signals": [],
-        "negative_signals": [
-          "generic full-stack is only a weak fit"
-        ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1738,7 +1715,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1776,7 +1753,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1814,7 +1791,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1892,7 +1869,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1930,7 +1907,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -1968,7 +1945,7 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2006,11 +1983,11 @@
         "negative_signals": [
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
-      "source": "Alfred",
+      "source": "Alfred + Störf.is",
       "source_id": "167372",
       "title": "Tech Lead – Travel",
       "company": "Icelandair",
@@ -2018,11 +1995,11 @@
       "published": "2026-05-12T15:49:55Z",
       "deadline": "2026-05-27T23:59:59Z",
       "url": "https://alfred.is/starf/tech-lead-travel",
-      "snippet": "lity for scalability, quality and technical debt across frontend and backend. Stay hands-on where it matters most. Lead AI-assisted development practices - Champion the adoption of AI-assisted development across the team, setting the standard for how these tools are used effectively and responsibly as part of everyday",
+      "snippet": "lity for scalability, quality and technical debt across frontend and backend. Stay hands-on where it matters most. Lead AI-assisted development practices Champion the adoption of AI-assisted development across the team, setting the standard for how these tools are used effectively and responsibly as part of everyday en",
       "matched_in": "content",
-      "status_note": "",
+      "status_note": "Merged from 2 matching source postings.",
       "raw_date": "",
-      "key": "Alfred:167372",
+      "key": "role:9f355ef4629ebfde",
       "duplicate_group_key": "role:9f355ef4629ebfde",
       "source_links": [
         {
@@ -2030,10 +2007,50 @@
           "url": "https://alfred.is/starf/tech-lead-travel",
           "title": "Tech Lead – Travel",
           "company": "Icelandair"
+        },
+        {
+          "source": "Störf.is",
+          "url": "https://jobs.50skills.com/icelandair/42896",
+          "title": "Tech Lead – Travel",
+          "company": "Icelandair"
         }
       ],
-      "alternatives": [],
-      "duplicate_count": 1,
+      "alternatives": [
+        {
+          "source": "Alfred",
+          "source_id": "167372",
+          "title": "Tech Lead – Travel",
+          "company": "Icelandair",
+          "location": "Iceland",
+          "published": "2026-05-12T15:49:55Z",
+          "deadline": "2026-05-27T23:59:59Z",
+          "url": "https://alfred.is/starf/tech-lead-travel",
+          "snippet": "lity for scalability, quality and technical debt across frontend and backend. Stay hands-on where it matters most. Lead AI-assisted development practices - Champion the adoption of AI-assisted development across the team, setting the standard for how these tools are used effectively and responsibly as part of everyday",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Alfred:167372",
+          "duplicate_group_key": "role:9f355ef4629ebfde"
+        },
+        {
+          "source": "Störf.is",
+          "source_id": "85582",
+          "title": "Tech Lead – Travel",
+          "company": "Icelandair",
+          "location": "Höfuðborgarsvæðið",
+          "published": "2026-05-13T03:05:26.166908Z",
+          "deadline": "2026-05-27T00:00:00",
+          "url": "https://jobs.50skills.com/icelandair/42896",
+          "snippet": "lity for scalability, quality and technical debt across frontend and backend. Stay hands-on where it matters most. Lead AI-assisted development practices Champion the adoption of AI-assisted development across the team, setting the standard for how these tools are used effectively and responsibly as part of everyday en",
+          "matched_in": "content",
+          "status_note": "",
+          "raw_date": "",
+          "key": "Störf.is:85582",
+          "duplicate_group_key": "role:9f355ef4629ebfde"
+        }
+      ],
+      "duplicate_count": 2,
+      "duplicate": true,
       "predicted_interest": {
         "score": 17,
         "label": "very low",
@@ -2042,7 +2059,7 @@
         "negative_signals": [
           "front-end programming is a poor fit"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2081,7 +2098,7 @@
           "generic full-stack is only a weak fit",
           "posting is more than one year old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2118,7 +2135,7 @@
           "front-end programming is a poor fit",
           "posting is older than six months"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2157,7 +2174,7 @@
           "systems administration is only tangentially related",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2196,7 +2213,41 @@
           "assessor/evaluator gig is not a strong role fit",
           "posting is more than two years old and may be stale"
         ],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167298",
+      "title": "Langar þig að vera AI Orchestrator",
+      "company": "TACTICA",
+      "location": "Iceland",
+      "published": "2026-05-12T10:37:40Z",
+      "deadline": "",
+      "url": "https://alfred.is/starf/ai-orchestrator-oskast",
+      "snippet": "Langar þig að vera AI Orchestrator Langar þig að vinna í fremstu víglínu gervigreindar? TACTICA leitar að framsýnum og drífandi AI Orchestrator sem þorir að hugsa stórt og er tilbúinn að taka þátt í að móta hvernig fyrirtækið nýtir gervigreind í daglegum rekstri. Langar þig að vinna í fremstu víglínu gervigreindar? TAC",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167298",
+      "duplicate_group_key": "role:3039c6555b13ef06",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/ai-orchestrator-oskast",
+          "title": "Langar þig að vera AI Orchestrator",
+          "company": "TACTICA"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": null,
+        "label": "rated",
+        "rationale": "Already marked applied; explicit feedback overrides prediction.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2230,7 +2281,7 @@
         "rationale": "Already marked maybe; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2264,7 +2315,109 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
+      }
+    },
+    {
+      "source": "Alfred",
+      "source_id": "167238",
+      "title": "Yfirlögfræðingur",
+      "company": "Íslandsbanki",
+      "location": "Iceland",
+      "published": "2026-05-11T13:43:08Z",
+      "deadline": "2026-05-19T23:59:59Z",
+      "url": "https://alfred.is/starf/yfirloegfraedingur-8",
+      "snippet": "ingu þar sem áhersla er lögð á einfaldara skipulag, skýrari ábyrgð, gagnadrifna ákvarðanatöku og aukna nýtingu tækni og gervigreindar. Umsókn skal fylgja ferilskrá og ítarlegt kynningarbréf á íslensku þar sem gerð er grein fyrir ástæðu umsóknar og rökstuðningur um hæfni viðkomandi til að gegna starfinu. Nánari upplýsin",
+      "matched_in": "content",
+      "status_note": "",
+      "raw_date": "",
+      "key": "Alfred:167238",
+      "duplicate_group_key": "role:70ed6f0da7097e2c",
+      "source_links": [
+        {
+          "source": "Alfred",
+          "url": "https://alfred.is/starf/yfirloegfraedingur-8",
+          "title": "Yfirlögfræðingur",
+          "company": "Íslandsbanki"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": null,
+        "label": "rated",
+        "rationale": "Already marked rejected; explicit feedback overrides prediction.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T08:01:24+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "1b96e1f2e5a322bc",
+      "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
+      "company": "Prolific",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989",
+      "snippet": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia) Prolific Iceland Be an early applicant 21 hours ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:1b96e1f2e5a322bc",
+      "duplicate_group_key": "role:1af29b24c3147767",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/ai-trainer-spanish-fluency-from-spain-argentina-chile-mexico-colombia-%E2%80%8B%E2%80%8B-at-prolific-4413537989",
+          "title": "AI Trainer - Spanish Fluency ( from Spain, Argentina, Chile, Mexico, Colombia)",
+          "company": "Prolific"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": null,
+        "label": "rated",
+        "rationale": "Already marked rejected; explicit feedback overrides prediction.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T08:01:24+00:00"
+      }
+    },
+    {
+      "source": "LinkedIn",
+      "source_id": "a796816af500cc4a",
+      "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
+      "company": "Braintrust",
+      "location": "Iceland",
+      "published": "",
+      "deadline": "",
+      "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112",
+      "snippet": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings) Braintrust Iceland 1 month ago",
+      "matched_in": "title",
+      "status_note": "",
+      "raw_date": "",
+      "key": "LinkedIn:a796816af500cc4a",
+      "duplicate_group_key": "role:3a8ff16b6be90a14",
+      "source_links": [
+        {
+          "source": "LinkedIn",
+          "url": "https://is.linkedin.com/jobs/view/full-stack-software-engineer-for-ai-training-remote-flexible-100%2B-openings-at-braintrust-4386729112",
+          "title": "Full Stack Software Engineer for AI Training (Remote, Flexible, 100+ openings)",
+          "company": "Braintrust"
+        }
+      ],
+      "alternatives": [],
+      "duplicate_count": 1,
+      "predicted_interest": {
+        "score": null,
+        "label": "rated",
+        "rationale": "Already marked rejected; explicit feedback overrides prediction.",
+        "positive_signals": [],
+        "negative_signals": [],
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2298,7 +2451,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2332,7 +2485,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2406,7 +2559,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2440,7 +2593,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2474,7 +2627,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2508,7 +2661,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2542,7 +2695,7 @@
         "rationale": "Already marked rejected; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2576,7 +2729,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     },
     {
@@ -2610,7 +2763,7 @@
         "rationale": "Already marked liked; explicit feedback overrides prediction.",
         "positive_signals": [],
         "negative_signals": [],
-        "profile_version": "2026-05-12T19:39:00+00:00"
+        "profile_version": "2026-05-13T08:01:24+00:00"
       }
     }
   ],
@@ -2619,14 +2772,14 @@
       "source": "alfred",
       "ok": true,
       "url": "https://alfred.is/starfsvakt?search=gervigreind, https://alfred.is/starfsvakt?search=AI",
-      "total": 330,
+      "total": 310,
       "search_terms": [
         "gervigreind",
         "AI"
       ],
       "term_totals": {
         "gervigreind": 7,
-        "AI": 323
+        "AI": 303
       },
       "count": 11
     },
@@ -2634,16 +2787,16 @@
       "source": "storf",
       "ok": true,
       "url": "https://www.storf.is/?s=gervigreind, https://www.storf.is/?s=AI",
-      "total": 112,
+      "total": 117,
       "search_terms": [
         "gervigreind",
         "AI"
       ],
       "term_totals": {
         "gervigreind": 5,
-        "AI": 107
+        "AI": 112
       },
-      "count": 8
+      "count": 9
     },
     {
       "source": "tvinna",
@@ -2665,16 +2818,16 @@
       "source": "linkedin",
       "ok": true,
       "url": "https://www.linkedin.com/jobs/search/?keywords=gervigreind&location=Iceland, https://www.linkedin.com/jobs/search/?keywords=AI&location=Iceland",
-      "total": 9,
+      "total": 11,
       "search_terms": [
         "gervigreind",
         "AI"
       ],
       "page_title": {
         "gervigreind": "0 Gervigreind jobs in Iceland",
-        "AI": "80 AI jobs in Iceland"
+        "AI": "84 AI jobs in Iceland"
       },
-      "count": 9
+      "count": 11
     },
     {
       "source": "jobis",
