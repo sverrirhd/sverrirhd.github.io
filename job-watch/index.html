@@ -58,6 +58,7 @@ function savePrefs(){localStorage.setItem(PREF_KEY, JSON.stringify(PREFS)); save
 let PREFS=loadPrefs();
 let DATA={jobs:[],sources:[]};
 let ACTIVE_FEEDBACK=null;
+let SESSION_NEW_KEYS=new Set();
 function isLiked(key){return !!PREFS.liked[key]}
 function isMaybe(key){return !!PREFS.maybe[key]}
 function isApplied(key){return !!PREFS.applied[key]}
@@ -66,6 +67,9 @@ function isSeen(key){return !!PREFS.seen[key]}
 function feedbackFor(key){return PREFS.feedback[key]||{}}
 function feedbackReason(key){return feedbackFor(key).reason||''}
 function isNew(j){return !isSeen(j.key) && !isLiked(j.key) && !isMaybe(j.key) && !isApplied(j.key) && !isRejected(j.key)}
+function captureSessionNewKeys(){SESSION_NEW_KEYS=new Set((DATA.jobs||[]).filter(isNew).map(j=>j.key));}
+function wasSessionNew(j){return SESSION_NEW_KEYS.has(j.key) && !isLiked(j.key) && !isMaybe(j.key) && !isApplied(j.key) && !isRejected(j.key)}
+// Clicked New cards keep their priority position until refresh.
 function markSeen(key){PREFS.seen[key]=new Date().toISOString(); savePrefs(); render();}
 function markJob(key, rating, reason='', job=null){
   PREFS.seen[key]=new Date().toISOString();
@@ -122,8 +126,9 @@ function predictedInterestRationale(j){return (j.predicted_interest&&j.predicted
 function predictedInterestLabel(j){return (j.predicted_interest&&j.predicted_interest.label)||'unknown';}
 function maxAgeDays(){const v=document.getElementById('ageFilter').value; return v?Number(v):null;}
 function withinAge(j){const max=maxAgeDays(); if(!max) return true; const age=postedAgeDays(j); return age===null || age<=max;}
-function priorityBucket(j){return isUrgent(j)?0:isNew(j)?1:isLiked(j.key)?2:isMaybe(j.key)?3:isSeen(j.key)?4:5;}
-function sortByPriority(a,b){const bucket=priorityBucket(a)-priorityBucket(b); if(bucket) return bucket; if(isNew(a)&&isNew(b)){return (predictedInterestScore(b)??-1)-(predictedInterestScore(a)??-1);} return urgentPriority(a)-urgentPriority(b) || ((Date.parse(b.published)||0)-(Date.parse(a.published)||0));}
+function sessionNewPriority(j){return wasSessionNew(j)}
+function priorityBucket(j){return isUrgent(j)?0:sessionNewPriority(j)?1:isLiked(j.key)?2:isMaybe(j.key)?3:isSeen(j.key)?4:5;}
+function sortByPriority(a,b){const bucket=priorityBucket(a)-priorityBucket(b); if(bucket) return bucket; if(sessionNewPriority(a)&&sessionNewPriority(b)){return (predictedInterestScore(b)??-1)-(predictedInterestScore(a)??-1);} return urgentPriority(a)-urgentPriority(b) || ((Date.parse(b.published)||0)-(Date.parse(a.published)||0));}
 function preferenceProfile(){return DATA.preference_profile||DATA.preferenceProfile||{};}
 function buildPreferenceProfile(){
   const feedback=Object.entries(PREFS.feedback||{}).map(([key,v])=>({key,...v}));
@@ -143,7 +148,7 @@ function saveFilterPrefs(){PREFS.ui=PREFS.ui||{}; PREFS.ui.filters={q:document.g
 async function load(){
   try{const serverPrefs=await loadServerPrefs(); PREFS=mergePreferences(serverPrefs, PREFS); localStorage.setItem(PREF_KEY, JSON.stringify(PREFS)); setSyncStatus('Server-synced memory loaded'); saveServerPrefs(PREFS);}
   catch(e){setSyncStatus('Server-side memory offline; using local backup', false)}
-  DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); populateSourceOptions(); applyFilterPrefs(); render();
+  DATA=await fetch('jobs.json?'+Date.now()).then(r=>r.json()); captureSessionNewKeys(); populateSourceOptions(); applyFilterPrefs(); render();
 }
 function setView(view){document.getElementById('view').value=view; saveFilterPrefs(); document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===view)); render();}
 function render(){
